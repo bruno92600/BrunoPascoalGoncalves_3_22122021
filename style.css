@@ -1,20 +1,25 @@
-
+@font-face {
+    font-family: 'Shrikhand', sans-serif;
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+}
 @media screen and (max-width: 767px)
 {
     body 
     {
-        margin-top: 0;
+        font-family: 'Roboto', sans-serif;
     }
-    .logoh
+    .logo
     {
         border: 1px black solid;
+        width: 100%;
+        font-family: 'Shrikhand', sans-serif;
         display: flex;
         justify-content: center;
-        width: 100%;
+        font-size: 32px;
     }
-    .logoh + h1 
-    {
-        font-family: 'Shrikand';
-    }
+    
+    
 
 }
