@@ -1,3 +1,119 @@
 
 
 /*# sourceMappingURL=style.css.map */
+@font-face {
+    font-family: 'Shrikhand', sans-serif;
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width: 767px)
+{
+    body 
+    {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    .logoh
+    {
+        width: 100%;
+        height: 66px;
+    }
+    .logo
+    {
+        width: 100%;
+        font-family: 'Shrikhand', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        color: black;
+        margin-top: 0;
+        padding-top: 15px;
+    }
+    #localisation
+    {
+        width: 100%;
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #EAEAEA;
+        box-shadow: inset 0 5px 3px #6161613d;
+        color: black;
+    }
+    #localisation i 
+    {
+        width: 40px;
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+    #localisation p 
+    {
+        margin-right: 27px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    #explorer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(245, 245, 245);
+        padding-top: 22px;
+        padding-bottom: 60px;
+    }
+    #explorer h1 
+    {
+        padding: 0 15%;
+        font-size: 24px;
+        color: black;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    #explorer p 
+    {
+        padding: 0 7%;
+        font-size: 18px;
+        color: black;
+        text-align: center;
+        font-weight: 300;
+    }
+    #explorer form 
+    {
+        height: 55px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    #explorer .input
+    {
+        height: 55px;
+        padding: 0 19px;
+        border-radius: 200px;
+        color: black;
+        font-size: 17px;
+        color: white;
+        background-image: linear-gradient(#FF79DA, #9356DC);
+        border-style: none;
+        box-shadow: 0 8px 12px #6161613d;
+        cursor: pointer;
+    }
+    #fonctionnement
+    {
+        border: 1px black solid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    
+    
+    
+    
+    
+
+}
