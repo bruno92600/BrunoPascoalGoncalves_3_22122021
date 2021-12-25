@@ -176,11 +176,11 @@
     }
     #restaurant 
     {
-        border: 1px green solid;
         display: flex;
         flex-direction: column;
         padding: 0 6%;
         background-color: rgb(245, 245, 245);
+        height: 1280px;
     }
     #restaurant h1 
     {
@@ -199,34 +199,113 @@
     }
     .carte
     {
-        border: 1px blue solid;
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 255px;
+        height: 260px;
         border-radius: 15px;
-        box-shadow: 0 0 12px #6161613d;
+        box-shadow: 0 4px 12px #6161613d;
         overflow: hidden;
+    }
+    .carte .clic
+    {
+        display: flex;
+        flex-direction: column;
     }
     .carte img 
     {
-        border: 1px black solid;
         width: 100%;
         height: 178px;
         object-fit: cover;
     }
     .interieurphoto
     {
-        border: 1px black solid;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .interieurphoto p 
+    {
         display: flex;
         position: absolute;
+        margin-right: 15px;
+        padding: 8px 15px;
+        background-color: rgb(147, 224, 203);
+        border-radius: 4px;
+        color: rgb(27, 132, 101);
+        font-size: 17px;
+        font-weight: normal;
     }
-
-
-    
-    
-    
-    
+    .nomresto
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+        height: 75px;
+    }
+    .nomresto i 
+    {
+        display: flex;
+        position: absolute;
+        margin: 26px 30px 0 0;
+        font-size: 27px;
+        color: white;
+        text-shadow: 0 0 3px black;
+    }
+    .nomresto h3 
+    {
+        width: 96%;
+        height: 35px;
+        margin-top: 12px;
+        margin-bottom: 0px;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .nomresto p 
+    {
+        width: 96%;
+        height: 35px;
+        margin: 0;
+        color: black;
+        font-size: 19px;
+        font-weight: 300;
+    }
+    #footer *
+    {
+        text-decoration: none;
+    }
+    #footer
+    {
+        padding: 0 6%;
+        background-color: rgb(48, 48, 48);
+        height: 250px;
+        margin-top: -15px;
+    }
+    #footer h1
+    {
+        font-family: 'Shrikhand', sans-serif;
+        color: white;
+        font-size: 22px;
+        padding-top: 30px;
+    }
+    .footer1
+    {
+        display: flex;
+        flex-direction: column;
+        height: 121px;
+        margin-top: 18px;
+    }
+    .footer1 p 
+    {
+        color: white;
+        font-size: 18px;
+        margin: 4px;
+    }
+    .footer1 i 
+    {
+        width: 30px;
+    }
     
 
 }
