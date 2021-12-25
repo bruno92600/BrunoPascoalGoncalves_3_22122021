@@ -220,7 +220,6 @@
     .carte:hover
     {
         transform: scale(1.05);
-
     }
     .carte .clic
     {

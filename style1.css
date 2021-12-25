@@ -1,0 +1,62 @@
+
+
+/*# sourceMappingURL=style1.css.map */
+@font-face {
+    font-family: 'Shrikhand', sans-serif;
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width: 767px)
+{
+    body 
+    {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    .header
+    {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        margin-top: 10px;
+    }
+    .fleche
+    {
+        display: flex;
+        position: absolute;
+    }
+    .fleche i 
+    {
+        width: 60px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-size: 22px;
+    }
+    .logo
+    {
+        font-family: 'Shrikhand', sans-serif;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        color: black;
+        font-size: 32px;
+        font-weight: bold;
+    }
+    #fotos
+    {
+        width: 100%;
+        object-fit: cover;
+    }
+    #menu
+    {
+        border: 1px black solid;
+        background-color: #F6F6F6;
+        margin-top: -50px;
+        border-radius: 40px 40px 0 0;
+    }
+}
