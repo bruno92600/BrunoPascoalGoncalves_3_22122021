@@ -170,9 +170,13 @@
         font-size: 17px;
         font-weight: bold;
     }
+    #restaurant *
+    {
+        text-decoration: none;
+    }
     #restaurant 
     {
-        border: 1px black solid;
+        border: 1px green solid;
         display: flex;
         flex-direction: column;
         padding: 0 6%;
@@ -180,11 +184,42 @@
     }
     #restaurant h1 
     {
-        border: 1px black solid;
         margin-top: 65px;
         color: black;
         font-size: 24px;
         font-weight: bold;
+    }
+    .restau
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 1090px;
+        margin-top: 7px;
+    }
+    .carte
+    {
+        border: 1px blue solid;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 255px;
+        border-radius: 15px;
+        box-shadow: 0 0 12px #6161613d;
+        overflow: hidden;
+    }
+    .carte img 
+    {
+        border: 1px black solid;
+        width: 100%;
+        height: 178px;
+        object-fit: cover;
+    }
+    .interieurphoto
+    {
+        border: 1px black solid;
+        display: flex;
+        position: absolute;
     }
 
 
