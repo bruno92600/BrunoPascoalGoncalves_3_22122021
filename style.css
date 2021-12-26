@@ -101,9 +101,9 @@
         box-shadow: 0 8px 12px #6161613d;
         cursor: pointer;
     }
-    #explorer .input:hover
-    {
-        background-image: darken linear-gradient(#FF79DA, #9356DC, 5);
+    .explorer .input:hover {
+        background-image: linear-gradient(350deg, #aa65ff, #ff79d9);
+        box-shadow: 0 10px 15px #61616170;
     }
     #fonctionnement
     {
