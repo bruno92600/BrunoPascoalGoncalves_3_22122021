@@ -47,16 +47,73 @@
         font-size: 32px;
         font-weight: bold;
     }
-    #fotos
+    #titrefoto
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        width: 100%;
+        height: 280px;
+    }
+    #titrefoto img 
     {
         width: 100%;
+        height: 290px;
         object-fit: cover;
+    }
+    .texteinset
+    {
+        border: 1px black solid;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        background-color: #F6F6F6;
+        width: 100%;
+        height: 55px;
+        border-radius: 40px 40px 0 0;
+    }
+    .texteinset h1 
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 10px;
+        font-family: 'Shrikhand', sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+        padding: 50px 4% 4% 4%;
+        margin-top: 0;
+    }
+    .texteinset h1 i 
+    {
+        width: 17%;
+        display: flex;
+        justify-content: center;
+        color: white;
+        text-shadow: 0 0 3px black;
+        transition: color 0.4s linear;
+        cursor: pointer;
+    }
+    .texteinset h1 i:hover
+    {
+        color: #9356DC;
     }
     #menu
     {
         border: 1px black solid;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
         background-color: #F6F6F6;
-        margin-top: -50px;
-        border-radius: 40px 40px 0 0;
     }
+    .entrer1
+    {
+        border: 1px blue solid;
+        padding: 0 3%;
+        margin-top: 25px;
+    }
+
+
+
 }
