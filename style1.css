@@ -298,11 +298,12 @@
     }
     .prix2
     {
-        width: 15%;
+        width: 20%;
         height: 60px;
         font-size: 16px;
         font-weight: bold;
         display: flex;
+        justify-content: center;
         align-items: flex-end;
     }
     .bouton
@@ -367,3 +368,737 @@
         width: 30px;
     }
 }
+@media screen and (min-width: 768px) and (max-width: 999px)
+{
+    body 
+    {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    .header
+    {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .fleche
+    {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 50px;
+    }
+    .fleche i 
+    {
+        color: black;
+        font-size: 24px;
+        display: inline-block;
+    }
+    .logo
+    {
+        font-family: 'Shrikhand', sans-serif;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        color: black;
+        font-size: 32px;
+        font-weight: bold;
+    }
+    #titrefoto
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        width: 100%;
+        height: 280px;
+    }
+    #titrefoto img 
+    {
+        width: 100%;
+        height: 290px;
+        object-fit: cover;
+    }
+    .texteinset
+    {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        background-color: #F6F6F6;
+        width: 100%;
+        height: 55px;
+        border-radius: 40px 40px 0 0;
+    }
+    .texteinset h1 
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 10px;
+        font-family: 'Shrikhand', sans-serif;
+        font-size: 27px;
+        font-weight: bold;
+        padding: 50px 4% 4% 4%;
+        margin-top: 0;
+    }
+    .texteinset h1 i 
+    {
+        width: 17%;
+        display: flex;
+        justify-content: center;
+        color: white;
+        text-shadow: 0 0 3px black;
+        transition: color 0.4s linear;
+        cursor: pointer;
+    }
+    .texteinset h1 i:hover
+    {
+        color: #9356DC;
+    }
+    #menu
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #F6F6F6;
+    }
+    .plat1
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 3%;
+        margin-top: 25px;
+    }
+    .titre1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 2px;
+    }
+    .plat1 .bordure
+    {
+        width: 52px;
+        height: 5px;
+        border-bottom: 3px #99E2D0 solid;
+    }
+    .plat 
+    {
+        display: flex;
+        width: 100%;
+        height: 78px;
+        margin-top: 15px;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 0 4px 12px #6161613d;
+    }
+    .plat .right
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: #99E2D0;
+        font-size: 27px;
+        cursor: pointer;
+        color: white;
+        border-radius: 0px 15px 15px 0;
+    }
+    .plat:hover .right 
+    {
+        transition: .5s ease-in-out;
+        width: 80px;
+        opacity: 100%;
+    }
+    .plat:not(:hover) .right
+    {
+        transition: .5s ease-in-out;
+        width: 0;
+        opacity: 0%;
+    }
+    .left
+    {
+        display: flex;
+        width: 100%;
+    }
+    .nomplat
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        padding-left: 10px;
+    }
+    .nomplat h3
+    {
+        margin: 4px;
+        height: 37px;
+        width: 100%;
+        font-weight: 500;
+        font-size: 19px;
+        display: flex;
+        align-items: flex-end;
+    }
+    .nomplat p 
+    {
+        margin: 0;
+        height: 39px;
+        width: 100%;
+        font-weight: 300;
+        font-size: 15px;
+    }
+    .prix
+    {
+        width: 20%;
+        height: 60px;
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .plat2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 3%;
+        margin-top: 25px;
+    }
+    .titre2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 2px;
+    }
+    .plat2 .bordure1
+    {
+        width: 52px;
+        height: 5px;
+        border-bottom: 3px #99E2D0 solid;
+    }
+    .plat3
+    {
+        display: flex;
+        width: 100%;
+        height: 78px;
+        margin-top: 15px;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 0 4px 12px #6161613d;
+    }
+    .plat3 .right2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: #99E2D0;
+        font-size: 27px;
+        cursor: pointer;
+        color: white;
+        border-radius: 0px 15px 15px 0;
+    }
+    .plat3:hover .right2
+    {
+        transition: .5s ease-in-out;
+        width: 80px;
+        opacity: 100%;
+    }
+    .plat3:not(:hover) .right2
+    {
+        transition: .5s ease-in-out;
+        width: 0;
+        opacity: 0%;
+    }
+    .left2
+    {
+        display: flex;
+        width: 100%;
+    }
+    .nomplat1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        padding-left: 10px;
+    }
+    .nomplat1 h3
+    {
+        margin: 4px;
+        height: 37px;
+        width: 100%;
+        font-weight: 500;
+        font-size: 19px;
+        display: flex;
+        align-items: flex-end;
+    }
+    .nomplat1 p 
+    {
+        margin: 0;
+        height: 39px;
+        width: 100%;
+        font-weight: 300;
+        font-size: 15px;
+    }
+    .prix2
+    {
+        width: 20%;
+        height: 60px;
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .bouton
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F6F6F6;
+        height: 160px;
+        width: 100%;
+    }
+    .input
+    {
+        height: 55px;
+        padding: 0 45px;
+        border-radius: 200px;
+        color: black;
+        font-size: 17px;
+        color: white;
+        background-image: linear-gradient(#FF79DA, #9356DC);
+        border-style: none;
+        box-shadow: 0 8px 12px #6161613d;
+        cursor: pointer;
+    }
+    .input:hover
+    {
+        background-image: darken linear-gradient(#FF79DA, #9356DC, 5);
+    }
+    #footer *
+    {
+        text-decoration: none;
+    }
+    #footer
+    {
+        padding: 0 6%;
+        background-color: rgb(48, 48, 48);
+        height: 250px;
+        margin-top: -15px;
+    }
+    #footer h1
+    {
+        font-family: 'Shrikhand', sans-serif;
+        color: white;
+        font-size: 22px;
+        padding-top: 30px;
+    }
+    .footer1
+    {
+        display: flex;
+        flex-direction: column;
+        height: 121px;
+        margin-top: 18px;
+    }
+    .footer1 p 
+    {
+        color: white;
+        font-size: 18px;
+        margin: 4px;
+    }
+    .footer1 i 
+    {
+        width: 30px;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1500px)
+{
+    body 
+    {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    .header
+    {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .fleche
+    {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 50px;
+    }
+    .fleche i 
+    {
+        color: black;
+        font-size: 24px;
+        display: inline-block;
+    }
+    .logo
+    {
+        font-family: 'Shrikhand', sans-serif;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        color: black;
+        font-size: 32px;
+        font-weight: bold;
+    }
+    #titrefoto
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        width: 100%;
+        height: 280px;
+    }
+    #titrefoto img 
+    {
+        width: 100%;
+        height: 290px;
+        object-fit: cover;
+    }
+    .texteinset
+    {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        background-color: #F6F6F6;
+        width: 100%;
+        height: 55px;
+        border-radius: 40px 40px 0 0;
+    }
+    .texteinset h1 
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 10px;
+        font-family: 'Shrikhand', sans-serif;
+        font-size: 27px;
+        font-weight: bold;
+        padding: 50px 4% 4% 4%;
+        margin-top: 0;
+    }
+    .texteinset h1 i 
+    {
+        width: 17%;
+        display: flex;
+        justify-content: center;
+        color: white;
+        text-shadow: 0 0 3px black;
+        transition: color 0.4s linear;
+        cursor: pointer;
+    }
+    .texteinset h1 i:hover
+    {
+        color: #9356DC;
+    }
+    #menu
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #F6F6F6;
+    }
+    .plat1
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 3%;
+        margin-top: 30px;
+    }
+    .titre1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 2px;
+    }
+    .plat1 .bordure
+    {
+        width: 52px;
+        height: 5px;
+        border-bottom: 3px #99E2D0 solid;
+    }
+    .plat 
+    {
+        display: flex;
+        width: 100%;
+        height: 78px;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 0 4px 12px #6161613d;
+        margin-top: 15px;
+    }
+    .plat .right
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: #99E2D0;
+        font-size: 27px;
+        cursor: pointer;
+        color: white;
+        border-radius: 0px 15px 15px 0;
+    }
+    .plat:hover .right 
+    {
+        transition: .5s ease-in-out;
+        width: 80px;
+        opacity: 100%;
+    }
+    .plat:not(:hover) .right
+    {
+        transition: .5s ease-in-out;
+        width: 0;
+        opacity: 0%;
+    }
+    .left
+    {
+        display: flex;
+        width: 100%;
+    }
+    .nomplat
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding-left: 10px;
+    }
+    .nomplat h3
+    {
+        margin: 4px;
+        height: 37px;
+        width: 100%;
+        font-weight: 500;
+        font-size: 19px;
+        display: flex;
+        align-items: flex-end;
+    }
+    .nomplat p 
+    {
+        margin: 0;
+        height: 39px;
+        width: 100%;
+        font-weight: 300;
+        font-size: 15px;
+    }
+    .prix
+    {
+        width: 10%;
+        height: 60px;
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .plat2
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 3%;
+        margin-top: 25px;
+    }
+    .titre2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 2px;
+    }
+    .plat2 .bordure1
+    {
+        width: 52px;
+        height: 5px;
+        border-bottom: 3px #99E2D0 solid;
+    }
+    .plat3
+    {
+        display: flex;
+        width: 100%;
+        height: 78px;
+        margin-top: 15px;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 0 4px 12px #6161613d;
+    }
+    .plat3 .right2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: #99E2D0;
+        font-size: 27px;
+        cursor: pointer;
+        color: white;
+        border-radius: 0px 15px 15px 0;
+    }
+    .plat3:hover .right2
+    {
+        transition: .5s ease-in-out;
+        width: 80px;
+        opacity: 100%;
+    }
+    .plat3:not(:hover) .right2
+    {
+        transition: .5s ease-in-out;
+        width: 0;
+        opacity: 0%;
+    }
+    .left2
+    {
+        display: flex;
+        width: 100%;
+    }
+    .nomplat1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding-left: 10px;
+    }
+    .nomplat1 h3
+    {
+        margin: 4px;
+        height: 37px;
+        width: 100%;
+        font-weight: 500;
+        font-size: 19px;
+        display: flex;
+        align-items: flex-end;
+    }
+    .nomplat1 p 
+    {
+        margin: 0;
+        height: 39px;
+        width: 100%;
+        font-weight: 300;
+        font-size: 15px;
+    }
+    .prix2
+    {
+        width: 10%;
+        height: 60px;
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .bouton
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F6F6F6;
+        height: 160px;
+        width: 100%;
+    }
+    .input
+    {
+        height: 55px;
+        padding: 0 45px;
+        border-radius: 200px;
+        color: black;
+        font-size: 17px;
+        color: white;
+        background-image: linear-gradient(#FF79DA, #9356DC);
+        border-style: none;
+        box-shadow: 0 8px 12px #6161613d;
+        cursor: pointer;
+    }
+    .input:hover
+    {
+        background-image: darken linear-gradient(#FF79DA, #9356DC, 5);
+    }
+    #footer *
+    {
+        text-decoration: none;
+    }
+    #footer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 6%;
+        background-color: rgb(48, 48, 48);
+        height: 340px;
+        margin-top: -15px;
+    }
+    #footer h1
+    {
+        font-family: 'Shrikhand', sans-serif;
+        color: white;
+        font-size: 45px;
+        padding-top: 30px;
+    }
+    .footer1
+    {
+        display: flex;
+        flex-direction: column;
+        height: 121px;
+        margin-top: 18px;
+    }
+    .footer1 p 
+    {
+        color: white;
+        font-size: 18px;
+        margin: 4px;
+    }
+    .footer1 i 
+    {
+        width: 30px;
+    }
+}
+
