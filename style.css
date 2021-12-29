@@ -96,13 +96,13 @@
         color: black;
         font-size: 17px;
         color: white;
-        background-image: linear-gradient(#FF79DA, #9356DC);
+        background: linear-gradient(#FF79DA, #9356DC);
         border-style: none;
         box-shadow: 0 8px 12px #6161613d;
         cursor: pointer;
     }
     .explorer .input:hover {
-        background-image: linear-gradient(350deg, #aa65ff, #ff79d9);
+        background: darken ( #ff79d9, 5);
         box-shadow: 0 10px 15px #61616170;
     }
     #fonctionnement
@@ -326,6 +326,654 @@
     {
         width: 30px;
     }
-    
-
+}
+@media screen and (min-width: 768px) and (max-width: 999px)
+{
+    body 
+    {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    .logoh
+    {
+        width: 100%;
+        height: 70px;
+    }
+    .logo
+    {
+        width: 100%;
+        font-family: 'Shrikhand', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        color: black;
+        margin-top: 0;
+        padding-top: 15px;
+    }
+    #localisation
+    {
+        width: 100%;
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #EAEAEA;
+        box-shadow: inset 0 5px 3px #6161613d;
+        color: black;
+    }
+    #localisation i 
+    {
+        width: 40px;
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+    #localisation p 
+    {
+        margin-right: 27px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    #explorer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(245, 245, 245);
+        padding-top: 22px;
+        padding-bottom: 60px;
+    }
+    #explorer h1 
+    {
+        padding: 0 15%;
+        font-size: 24px;
+        color: black;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    #explorer p 
+    {
+        padding: 0 7%;
+        font-size: 18px;
+        color: black;
+        text-align: center;
+        font-weight: 300;
+    }
+    #explorer form 
+    {
+        height: 55px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    #explorer .input
+    {
+        height: 55px;
+        padding: 0 19px;
+        border-radius: 200px;
+        color: black;
+        font-size: 17px;
+        color: white;
+        background: linear-gradient(#FF79DA, #9356DC);
+        border-style: none;
+        box-shadow: 0 8px 12px #6161613d;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .explorer .input:hover {
+        background: darken ( #ff79d9, 5);
+        box-shadow: 0 10px 15px #61616170;
+    }
+    #fonctionnement
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 6%;
+        margin-top: 40px;
+        margin-bottom: 65px;
+    }
+    #fonctionnement h1 
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .explication
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-end;
+        width: 100%;
+        height: 320px;
+    }
+    .choix
+    {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 110px;
+    }
+    .chiffre
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        width: 25px;
+        height: 25px;
+        border-radius: 25px;
+        background-color: #9356DC;
+        color: white;
+        position: absolute;
+    }
+    .choisir
+    {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        width: 98%;
+        height: 80px;
+        border-radius: 22px;
+        background-color: rgb(245, 245, 245);
+        box-shadow: 0px 10px 15px #6161613d;
+        transition: background-color 400ms;
+    }
+    .choisir:hover
+    {
+        background-color: #F5EDFF;
+    }
+    .choisir i 
+    {
+        margin-left: 30px;
+        font-size: 22px;
+        color: grey;
+    }
+    .choisir h3 
+    {
+        margin-left: 20px;
+        color: black;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    #restaurant *
+    {
+        text-decoration: none;
+    }
+    #restaurant 
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 0 6%;
+        background-color: rgb(245, 245, 245);
+        height: 1280px;
+    }
+    #restaurant h1 
+    {
+        margin-top: 65px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .restau
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 1090px;
+        margin-top: 7px;
+    }
+    .carte
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 260px;
+        border-radius: 15px;
+        box-shadow: 0 4px 12px #6161613d;
+        overflow: hidden;
+        transition-duration: 0.4s;
+    }
+    .carte:hover
+    {
+        transform: scale(1.05);
+    }
+    .carte .clic
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .carte img 
+    {
+        width: 100%;
+        height: 178px;
+        object-fit: cover;
+    }
+    .interieurphoto
+    {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .interieurphoto p 
+    {
+        display: flex;
+        position: absolute;
+        margin-right: 15px;
+        padding: 8px 15px;
+        background-color: rgb(147, 224, 203);
+        border-radius: 4px;
+        color: rgb(27, 132, 101);
+        font-size: 17px;
+        font-weight: normal;
+    }
+    .nomresto
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+        height: 75px;
+    }
+    .nomresto i 
+    {
+        display: flex;
+        position: absolute;
+        margin: 26px 30px 0 0;
+        font-size: 27px;
+        color: white;
+        text-shadow: 0 0 3px black;
+        transition: color 0.4s linear;
+        cursor: pointer;
+    }
+   .nomresto i:hover
+    {
+        color: #9356DC;
+    }
+    .nomresto h3 
+    {
+        width: 96%;
+        height: 35px;
+        margin-top: 12px;
+        margin-bottom: 0px;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .nomresto p 
+    {
+        width: 96%;
+        height: 35px;
+        margin: 0;
+        color: black;
+        font-size: 19px;
+        font-weight: 300;
+    }
+    #footer *
+    {
+        text-decoration: none;
+    }
+    #footer
+    {
+        padding: 0 6%;
+        background-color: rgb(48, 48, 48);
+        height: 250px;
+        margin-top: -15px;
+    }
+    #footer h1
+    {
+        font-family: 'Shrikhand', sans-serif;
+        color: white;
+        font-size: 22px;
+        padding-top: 30px;
+    }
+    .footer1
+    {
+        display: flex;
+        flex-direction: column;
+        height: 121px;
+        margin-top: 18px;
+    }
+    .footer1 p 
+    {
+        color: white;
+        font-size: 18px;
+        margin: 4px;
+    }
+    .footer1 i 
+    {
+        width: 30px;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1500px)
+{
+    body 
+    {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    .logoh
+    {
+        width: 100%;
+        height: 70px;
+    }
+    .logo
+    {
+        width: 100%;
+        font-family: 'Shrikhand', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        color: black;
+        margin-top: 0;
+        padding-top: 15px;
+    }
+    #localisation
+    {
+        width: 100%;
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #EAEAEA;
+        box-shadow: inset 0 5px 3px #6161613d;
+        color: black;
+    }
+    #localisation i 
+    {
+        width: 40px;
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+    #localisation p 
+    {
+        margin-right: 27px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    #explorer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(245, 245, 245);
+        padding-top: 22px;
+        padding-bottom: 60px;
+    }
+    #explorer h1 
+    {
+        padding: 0 15%;
+        font-size: 24px;
+        color: black;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    #explorer p 
+    {
+        padding: 0 7%;
+        font-size: 18px;
+        color: black;
+        text-align: center;
+        font-weight: 300;
+    }
+    #explorer form 
+    {
+        height: 55px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    #explorer .input
+    {
+        height: 55px;
+        padding: 0 45px;
+        border-radius: 200px;
+        color: black;
+        font-size: 20px;
+        color: white;
+        background: linear-gradient(#FF79DA, #9356DC);
+        border-style: none;
+        box-shadow: 0 8px 12px #6161613d;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .explorer .input:hover {
+        background: darken ( #ff79d9, 5);
+        box-shadow: 0 10px 15px #61616170;
+    }
+    #fonctionnement
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 6%;
+        margin-top: 40px;
+        margin-bottom: 65px;
+    }
+    #fonctionnement h1 
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .explication
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 100%;
+        height: 100px;
+    }
+    .choix
+    {
+        display: flex;
+        align-items: center;
+        width: 28%;
+        height: 110px;
+    }
+    .chiffre
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        width: 25px;
+        height: 25px;
+        border-radius: 25px;
+        background-color: #9356DC;
+        color: white;
+        position: absolute;
+    }
+    .choisir
+    {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        width: 98%;
+        height: 80px;
+        border-radius: 22px;
+        background-color: rgb(245, 245, 245);
+        box-shadow: 0px 10px 15px #6161613d;
+        transition: background-color 400ms;
+    }
+    .choisir:hover
+    {
+        background-color: #F5EDFF;
+    }
+    .choisir i 
+    {
+        margin-left: 30px;
+        font-size: 22px;
+        color: grey;
+    }
+    .choisir h3 
+    {
+        margin-left: 20px;
+        color: black;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    #restaurant *
+    {
+        text-decoration: none;
+    }
+    #restaurant 
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 0 6%;
+        background-color: rgb(245, 245, 245);
+        height: 460px;
+    }
+    #restaurant h1 
+    {
+        margin-top: 65px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .restau
+    {
+        display: flex;
+        justify-content: space-between;
+        height: 300px;
+        margin-top: 7px;
+    }
+    .carte
+    {
+        display: flex;
+        flex-direction: column;
+        width: 23%;
+        height: 260px;
+        border-radius: 15px;
+        box-shadow: 0 4px 12px #6161613d;
+        overflow: hidden;
+        transition-duration: 0.4s;
+    }
+    .carte:hover
+    {
+        transform: scale(1.05);
+    }
+    .carte .clic
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .carte img 
+    {
+        width: 100%;
+        height: 178px;
+        object-fit: cover;
+    }
+    .interieurphoto
+    {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .interieurphoto p 
+    {
+        display: flex;
+        position: absolute;
+        margin-right: 15px;
+        padding: 8px 15px;
+        background-color: rgb(147, 224, 203);
+        border-radius: 4px;
+        color: rgb(27, 132, 101);
+        font-size: 17px;
+        font-weight: normal;
+    }
+    .nomresto
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+        height: 75px;
+    }
+    .nomresto i 
+    {
+        display: flex;
+        position: absolute;
+        margin: 26px 30px 0 0;
+        font-size: 27px;
+        color: white;
+        text-shadow: 0 0 3px black;
+        transition: color 0.4s linear;
+        cursor: pointer;
+    }
+   .nomresto i:hover
+    {
+        color: #9356DC;
+    }
+    .nomresto h3 
+    {
+        width: 96%;
+        height: 35px;
+        margin-top: 12px;
+        margin-bottom: 0px;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .nomresto p 
+    {
+        width: 96%;
+        height: 35px;
+        margin: 0;
+        color: black;
+        font-size: 19px;
+        font-weight: 300;
+    }
+    #footer *
+    {
+        text-decoration: none;
+    }
+    #footer
+    {
+        padding: 0 6%;
+        background-color: rgb(48, 48, 48);
+        height: 250px;
+        margin-top: -15px;
+    }
+    #footer h1
+    {
+        font-family: 'Shrikhand', sans-serif;
+        color: white;
+        font-size: 22px;
+        padding-top: 30px;
+    }
+    .footer1
+    {
+        display: flex;
+        flex-direction: column;
+        height: 121px;
+        margin-top: 18px;
+    }
+    .footer1 p 
+    {
+        color: white;
+        font-size: 18px;
+        margin: 4px;
+    }
+    .footer1 i 
+    {
+        width: 30px;
+    }
 }
