@@ -97,7 +97,7 @@
     }
     .texteinset h1 i:hover
     {
-        color: #9356DC;
+        color: #A67ED7;
     }
     #menu
     {
@@ -177,6 +177,9 @@
         align-items: center;
         width: 80%;
         padding-left: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .nomplat h3
     {
@@ -185,6 +188,8 @@
         width: 100%;
         font-weight: 500;
         font-size: 19px;
+        overflow: hidden;
+        text-overflow: ellipsis;
         display: flex;
         align-items: flex-end;
     }
@@ -195,6 +200,8 @@
         width: 100%;
         font-weight: 300;
         font-size: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .prix
     {
@@ -277,6 +284,9 @@
         align-items: center;
         width: 85%;
         padding-left: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .nomplat1 h3
     {
@@ -287,6 +297,8 @@
         font-size: 19px;
         display: flex;
         align-items: flex-end;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .nomplat1 p 
     {
@@ -295,6 +307,8 @@
         width: 100%;
         font-weight: 300;
         font-size: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .prix2
     {
@@ -327,10 +341,12 @@
         border-style: none;
         box-shadow: 0 8px 12px #6161613d;
         cursor: pointer;
+        transition: background-image 0.5s;
+        transition-property: all;
     }
-    .input:hover
-    {
-        background-image: darken linear-gradient(#FF79DA, #9356DC, 5);
+    .input:hover {
+        background-image: linear-gradient(#FA8BDB,#9356DC);
+        box-shadow: 0 10px 16px #61616170;
     }
     #footer *
     {
@@ -458,7 +474,7 @@
     }
     .texteinset h1 i:hover
     {
-        color: #9356DC;
+        color: #A67ED7;
     }
     #menu
     {
@@ -540,6 +556,9 @@
         align-items: center;
         width: 80%;
         padding-left: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .nomplat h3
     {
@@ -550,6 +569,8 @@
         font-size: 19px;
         display: flex;
         align-items: flex-end;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .nomplat p 
     {
@@ -558,6 +579,8 @@
         width: 100%;
         font-weight: 300;
         font-size: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .prix
     {
@@ -642,6 +665,9 @@
         align-items: center;
         width: 85%;
         padding-left: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .nomplat1 h3
     {
@@ -652,6 +678,8 @@
         font-size: 19px;
         display: flex;
         align-items: flex-end;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .nomplat1 p 
     {
@@ -660,6 +688,8 @@
         width: 100%;
         font-weight: 300;
         font-size: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .prix2
     {
@@ -692,10 +722,12 @@
         border-style: none;
         box-shadow: 0 8px 12px #6161613d;
         cursor: pointer;
+        transition: background-image 0.5s;
+        transition-property: all;
     }
-    .input:hover
-    {
-        background-image: darken linear-gradient(#FF79DA, #9356DC, 5);
+    .input:hover {
+        background-image: linear-gradient(#FA8BDB,#9356DC);
+        box-shadow: 0 10px 16px #61616170;
     }
     #footer *
     {
@@ -818,12 +850,14 @@
         justify-content: center;
         color: white;
         text-shadow: 0 0 3px black;
-        transition: color 0.4s linear;
+        transition: color;
+        transition-property: color;
+        transition-duration: 0.4s;
         cursor: pointer;
     }
     .texteinset h1 i:hover
     {
-        color: #9356DC;
+        color: #A67ED7;
     }
     #menu
     {
@@ -905,6 +939,9 @@
         align-items: center;
         width: 90%;
         padding-left: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .nomplat h3
     {
@@ -915,6 +952,8 @@
         font-size: 19px;
         display: flex;
         align-items: flex-end;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .nomplat p 
     {
@@ -923,6 +962,8 @@
         width: 100%;
         font-weight: 300;
         font-size: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .prix
     {
@@ -1007,6 +1048,9 @@
         align-items: center;
         width: 90%;
         padding-left: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .nomplat1 h3
     {
@@ -1017,6 +1061,8 @@
         font-size: 19px;
         display: flex;
         align-items: flex-end;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .nomplat1 p 
     {
@@ -1025,6 +1071,8 @@
         width: 100%;
         font-weight: 300;
         font-size: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .prix2
     {
@@ -1057,10 +1105,12 @@
         border-style: none;
         box-shadow: 0 8px 12px #6161613d;
         cursor: pointer;
+        transition: background-image 0.5s;
+        transition-property: all;
     }
-    .input:hover
-    {
-        background-image: darken linear-gradient(#FF79DA, #9356DC, 5);
+    .input:hover {
+        background-image: linear-gradient(#FA8BDB,#9356DC);
+        box-shadow: 0 10px 16px #61616170;
     }
     #footer *
     {

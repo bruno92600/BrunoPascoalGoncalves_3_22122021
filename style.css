@@ -88,7 +88,7 @@
         align-items: center;
         margin-top: 10px;
     }
-    #explorer .input
+    .input
     {
         height: 55px;
         padding: 0 19px;
@@ -96,14 +96,16 @@
         color: black;
         font-size: 17px;
         color: white;
-        background: linear-gradient(#FF79DA, #9356DC);
+        background-image: linear-gradient(#FF79DA, #9356DC);
         border-style: none;
         box-shadow: 0 8px 12px #6161613d;
         cursor: pointer;
+        transition: background-image 0.5s;
+        transition-property: all;
     }
-    .explorer .input:hover {
-        background: darken ( #ff79d9, 5);
-        box-shadow: 0 10px 15px #61616170;
+    .input:hover {
+        background-image: linear-gradient(#FA8BDB,#9356DC);
+        box-shadow: 0 10px 16px #61616170;
     }
     #fonctionnement
     {
@@ -215,11 +217,11 @@
         border-radius: 15px;
         box-shadow: 0 4px 12px #6161613d;
         overflow: hidden;
-        transition-duration: 0.4s;
+        transition-duration: 0.5s;
     }
     .carte:hover
     {
-        transform: scale(1.05);
+        transform: scale(1.04);
     }
     .carte .clic
     {
@@ -265,12 +267,14 @@
         font-size: 27px;
         color: white;
         text-shadow: 0 0 3px black;
-        transition: color 0.4s linear;
+        transition: color;
+        transition-duration: 0.4s;
+        transition-property: color;
         cursor: pointer;
     }
-   .nomresto i:hover
+    .nomresto i:hover
     {
-        color: #9356DC;
+        color: #A67ED7;
     }
     .nomresto h3 
     {
@@ -408,7 +412,7 @@
         align-items: center;
         margin-top: 10px;
     }
-    #explorer .input
+    .input
     {
         height: 55px;
         padding: 0 19px;
@@ -416,15 +420,16 @@
         color: black;
         font-size: 17px;
         color: white;
-        background: linear-gradient(#FF79DA, #9356DC);
+        background-image: linear-gradient(#FF79DA, #9356DC);
         border-style: none;
         box-shadow: 0 8px 12px #6161613d;
         cursor: pointer;
-        margin-top: 10px;
+        transition: background-image 0.5s;
+        transition-property: all;
     }
-    .explorer .input:hover {
-        background: darken ( #ff79d9, 5);
-        box-shadow: 0 10px 15px #61616170;
+    .input:hover {
+        background-image: linear-gradient(#FA8BDB,#9356DC);
+        box-shadow: 0 10px 16px #61616170;
     }
     #fonctionnement
     {
@@ -591,12 +596,14 @@
         font-size: 27px;
         color: white;
         text-shadow: 0 0 3px black;
-        transition: color 0.4s linear;
+        transition: color;
+        transition-duration: 0.4s;
+        transition-property: color;
         cursor: pointer;
     }
-   .nomresto i:hover
+    .nomresto i:hover
     {
-        color: #9356DC;
+        color: #A67ED7;
     }
     .nomresto h3 
     {
@@ -734,23 +741,25 @@
         align-items: center;
         margin-top: 10px;
     }
-    #explorer .input
+    .input
     {
         height: 55px;
-        padding: 0 45px;
+        padding: 0 19px;
         border-radius: 200px;
         color: black;
-        font-size: 20px;
+        font-size: 17px;
         color: white;
-        background: linear-gradient(#FF79DA, #9356DC);
+        background-image: linear-gradient(#FF79DA, #9356DC);
         border-style: none;
         box-shadow: 0 8px 12px #6161613d;
         cursor: pointer;
+        transition: background-image 0.5s;
+        transition-property: all;
         margin-top: 10px;
     }
-    .explorer .input:hover {
-        background: darken ( #ff79d9, 5);
-        box-shadow: 0 10px 15px #61616170;
+    .input:hover {
+        background-image: linear-gradient(#FA8BDB,#9356DC);
+        box-shadow: 0 10px 16px #61616170;
     }
     #fonctionnement
     {
@@ -915,12 +924,14 @@
         font-size: 27px;
         color: white;
         text-shadow: 0 0 3px black;
-        transition: color 0.4s linear;
+        transition: color;
+        transition-duration: 0.4s;
+        transition-property: color;
         cursor: pointer;
     }
-   .nomresto i:hover
+    .nomresto i:hover
     {
-        color: #9356DC;
+        color: #A67ED7;
     }
     .nomresto h3 
     {
