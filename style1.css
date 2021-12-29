@@ -138,6 +138,33 @@
         border-radius: 15px;
         background-color: white;
         box-shadow: 0 4px 12px #6161613d;
+        animation: fadein 2500ms;
+        -moz-animation: fadein 2500ms;
+        -webkit-animation: fadein 2500ms;
+    }
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein { /* sur Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein { /* sur Safari et Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
     }
     .plat .right
     {
@@ -245,6 +272,33 @@
         border-radius: 15px;
         background-color: white;
         box-shadow: 0 4px 12px #6161613d;
+        animation: fadein 2500ms;
+        -moz-animation: fadein 2500ms;
+        -webkit-animation: fadein 2500ms;
+    }
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein { /* sur Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein { /* sur Safari et Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
     }
     .plat3 .right2
     {
@@ -517,6 +571,33 @@
         border-radius: 15px;
         background-color: white;
         box-shadow: 0 4px 12px #6161613d;
+        animation: fadein 2500ms;
+        -moz-animation: fadein 2500ms;
+        -webkit-animation: fadein 2500ms;
+    }
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein { /* sur Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein { /* sur Safari et Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
     }
     .plat .right
     {
@@ -626,6 +707,33 @@
         border-radius: 15px;
         background-color: white;
         box-shadow: 0 4px 12px #6161613d;
+        animation: fadein 2500ms;
+        -moz-animation: fadein 2500ms;
+        -webkit-animation: fadein 2500ms;
+    }
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein { /* sur Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein { /* sur Safari et Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
     }
     .plat3 .right2
     {
@@ -891,6 +999,10 @@
         height: 5px;
         border-bottom: 3px #99E2D0 solid;
     }
+    .plat1 
+    {
+        animation-delay: 400ms;
+    }
     .plat 
     {
         display: flex;
@@ -900,6 +1012,33 @@
         background-color: white;
         box-shadow: 0 4px 12px #6161613d;
         margin-top: 15px;
+        animation: fadein 2500ms;
+        -moz-animation: fadein 2500ms;
+        -webkit-animation: fadein 2500ms;
+    }
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein { /* sur Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein { /* sur Safari et Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
     }
     .plat .right
     {
@@ -1009,6 +1148,33 @@
         border-radius: 15px;
         background-color: white;
         box-shadow: 0 4px 12px #6161613d;
+        animation: fadein 2500ms;
+        -moz-animation: fadein 2500ms;
+        -webkit-animation: fadein 2500ms;
+    }
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein { /* sur Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein { /* sur Safari et Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
     }
     .plat3 .right2
     {
