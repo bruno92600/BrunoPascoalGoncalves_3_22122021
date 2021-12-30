@@ -138,11 +138,11 @@
         border-radius: 15px;
         background-color: white;
         box-shadow: 0 4px 12px #6161613d;
-        animation: fadein 2500ms;
-        -moz-animation: fadein 2500ms;
-        -webkit-animation: fadein 2500ms;
+        animation: brouille 2500ms;
+        -moz-animation: brouille 2500ms;
+        -webkit-animation: brouille 2500ms;
     }
-    @keyframes fadein {
+    @keyframes brouille {
         from {
             opacity:0;
         }
@@ -150,7 +150,7 @@
             opacity:1;
         }
     }
-    @-moz-keyframes fadein { /* sur Firefox */
+    @-moz-keyframes brouille { /* sur Firefox */
         from {
             opacity:0;
         }
@@ -158,7 +158,7 @@
             opacity:1;
         }
     }
-    @-webkit-keyframes fadein { /* sur Safari et Chrome */
+    @-webkit-keyframes brouille { /* sur Safari et Chrome */
         from {
             opacity:0;
         }
