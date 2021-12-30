@@ -446,7 +446,7 @@
     }
     .input:hover {
         background-image: linear-gradient(#FA8BDB,#9356DC);
-        box-shadow: 0 10px 16px #61616170;
+        box-shadow: 0 16px 22px #61616170;
     }
     #footer *
     {
@@ -927,7 +927,7 @@
     }
     .input:hover {
         background-image: linear-gradient(#FA8BDB,#9356DC);
-        box-shadow: 0 10px 16px #61616170;
+        box-shadow: 0 16px 22px #61616170;
     }
     #footer *
     {
@@ -1414,7 +1414,7 @@
     }
     .input:hover {
         background-image: linear-gradient(#FA8BDB,#9356DC);
-        box-shadow: 0 10px 16px #61616170;
+        box-shadow: 0 16px 22px #61616170;
     }
     #footer *
     {
