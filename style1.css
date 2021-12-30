@@ -92,7 +92,7 @@
         justify-content: center;
         color: white;
         text-shadow: 0 0 3px black;
-        transition: color 0.4s linear;
+        transition: color 1.6s linear;
         cursor: pointer;
     }
     .texteinset h1 i:hover
@@ -569,7 +569,7 @@
         justify-content: center;
         color: white;
         text-shadow: 0 0 3px black;
-        transition: color 0.4s linear;
+        transition: color 1.6s linear;
         cursor: pointer;
     }
     .texteinset h1 i:hover
@@ -1052,7 +1052,7 @@
         text-shadow: 0 0 3px black;
         transition: color;
         transition-property: color;
-        transition-duration: 0.4s;
+        transition-duration: 1.6s;
         cursor: pointer;
     }
     .texteinset h1 i:hover
