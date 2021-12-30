@@ -13,55 +13,114 @@
     {
         border: 1px black solid;
         width: 100%;
-        height: 400px;
+        height: 100%;
+        position: absolute;
+        position: fixed;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: #F5EDFF;
+        animation: load 3s linear;
+        animation-fill-mode: forwards;
+        pointer-events: none;
+        z-index: 1;
     }
-    .tourne
-    {
-        border: 1px black solid;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 260px;
-        height: 30px;
-        font-family: 'Shrikhand', sans-serif;
-        animation: spin 1.5s linear infinite;
-        -moz-animation: spin 1.5s linear infinite;
-        -webkit-animation: spin 1.5s linear infinite; 
-        
-    }
-    @keyframes spin
-    {
+    @keyframes load {
         0%
         {
-            transform: rotate(0deg);
+            opacity: 1;
+        }
+        80%
+        {
+            opacity: 1;
         }
         100%
         {
-            transform: rotate(360deg);
+            opacity: 0;
+            display: none;
         }
+    }
+    .tourne
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 60px;
+        font-family: 'Shrikhand', sans-serif; 
+        background-color: #F5EDFF;
     }
     .lettre
     {
         font-size: 33px;
+        color: #9356DC;
         animation: light 1.2s linear infinite;
     }
     @keyframes light {
         0%{
             color: #9356DC;
-            text-shadow: 0 0 8px #9356DC;
+            text-shadow: 0 0 10px #9356DC;
+            font-size: 40px;
+        }
+        10% 
+        {
+            color: #9356DC;
+            text-shadow: 0 0 8px #9356DC;  
+            font-size: 38px; 
+        }
+        20%
+        {
+            color: #9356DC;
+            text-shadow: 0 0 6px #9356DC;
+            font-size: 36px;
+        }
+        30%
+        {
+            color: #9356DC;
+            text-shadow: 0 0 4px #9356DC;
+            font-size: 34px;
+        }
+        40%
+        {
+            color: #FF79DA;
+            text-shadow: 0 0 2px #9356DC;
+            font-size: 32px;
         }
         50%
         {
             color: #FF79DA;
             text-shadow: none;
+            font-size: 29px;
+        }
+        60%
+        {
+            color: #FF79DA;
+            text-shadow: 0 0 2px #9356DC;
+            font-size: 32px;
+        }
+        70%
+        {
+            color: #9356DC;
+            text-shadow: 0 0 4px #9356DC;
+            font-size: 34px;
+        }
+        80%
+        {
+            color: #9356DC;
+            text-shadow: 0 0 6px #9356DC;
+            font-size: 36px;
+        }
+        90%
+        {
+            color: #9356DC;
+            text-shadow: 0 0 8px #9356DC;
+            font-size: 38px;
         }
         100%
         {
             color: #9356DC;
-            text-shadow: 0 0 8px #9356DC;
+            text-shadow: 0 0 10px #9356DC;
+            font-size: 40px;
         }
     }
     .lettre:nth-child(1)
@@ -424,55 +483,114 @@
     {
         border: 1px black solid;
         width: 100%;
-        height: 400px;
+        height: 100%;
+        position: absolute;
+        position: fixed;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: #F5EDFF;
+        animation: load 3s linear;
+        animation-fill-mode: forwards;
+        pointer-events: none;
+        z-index: 1;
     }
-    .tourne
-    {
-        border: 1px black solid;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 260px;
-        height: 30px;
-        font-family: 'Shrikhand', sans-serif;
-        animation: spin 1.5s linear infinite;
-        -moz-animation: spin 1.5s linear infinite;
-        -webkit-animation: spin 1.5s linear infinite; 
-        
-    }
-    @keyframes spin
-    {
+    @keyframes load {
         0%
         {
-            transform: rotate(0deg);
+            opacity: 1;
+        }
+        80%
+        {
+            opacity: 1;
         }
         100%
         {
-            transform: rotate(360deg);
+            opacity: 0;
+            display: none;
         }
+    }
+    .tourne
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 100px;
+        font-family: 'Shrikhand', sans-serif; 
+        background-color: #F5EDFF;
     }
     .lettre
     {
         font-size: 33px;
+        color: #9356DC;
         animation: light 1.2s linear infinite;
     }
     @keyframes light {
         0%{
             color: #9356DC;
-            text-shadow: 0 0 8px #9356DC;
+            text-shadow: 0 0 10px #9356DC;
+            font-size: 40px;
+        }
+        10% 
+        {
+            color: #9356DC;
+            text-shadow: 0 0 8px #9356DC;  
+            font-size: 38px; 
+        }
+        20%
+        {
+            color: #9356DC;
+            text-shadow: 0 0 6px #9356DC;
+            font-size: 36px;
+        }
+        30%
+        {
+            color: #9356DC;
+            text-shadow: 0 0 4px #9356DC;
+            font-size: 34px;
+        }
+        40%
+        {
+            color: #FF79DA;
+            text-shadow: 0 0 2px #9356DC;
+            font-size: 32px;
         }
         50%
         {
             color: #FF79DA;
             text-shadow: none;
+            font-size: 29px;
+        }
+        60%
+        {
+            color: #FF79DA;
+            text-shadow: 0 0 2px #9356DC;
+            font-size: 32px;
+        }
+        70%
+        {
+            color: #9356DC;
+            text-shadow: 0 0 4px #9356DC;
+            font-size: 34px;
+        }
+        80%
+        {
+            color: #9356DC;
+            text-shadow: 0 0 6px #9356DC;
+            font-size: 36px;
+        }
+        90%
+        {
+            color: #9356DC;
+            text-shadow: 0 0 8px #9356DC;
+            font-size: 38px;
         }
         100%
         {
             color: #9356DC;
-            text-shadow: 0 0 8px #9356DC;
+            text-shadow: 0 0 10px #9356DC;
+            font-size: 40px;
         }
     }
     .lettre:nth-child(1)
@@ -840,55 +958,113 @@
     {
         border: 1px black solid;
         width: 100%;
-        height: 400px;
+        height: 100%;
+        position: absolute;
+        position: fixed;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: #F5EDFF;
+        animation: load 3s linear;
+        animation-fill-mode: forwards;
+        pointer-events: none;
+        z-index: 1;
     }
-    .tourne
-    {
-        border: 1px black solid;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 260px;
-        height: 30px;
-        font-family: 'Shrikhand', sans-serif;
-        animation: spin 1.5s linear infinite;
-        -moz-animation: spin 1.5s linear infinite;
-        -webkit-animation: spin 1.5s linear infinite; 
-        
-    }
-    @keyframes spin
-    {
+    @keyframes load {
         0%
         {
-            transform: rotate(0deg);
+            opacity: 1;
+        }
+        80%
+        {
+            opacity: 1;
         }
         100%
         {
-            transform: rotate(360deg);
+            opacity: 0;
         }
+    }
+    .wait
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 100px;
+        font-family: 'Shrikhand', sans-serif; 
+        background-color: #F5EDFF;
     }
     .lettre
     {
         font-size: 33px;
+        color: #9356DC;
         animation: light 1.2s linear infinite;
     }
     @keyframes light {
         0%{
             color: #9356DC;
-            text-shadow: 0 0 8px #9356DC;
+            text-shadow: 0 0 10px #9356DC;
+            font-size: 40px;
+        }
+        10% 
+        {
+            color: #9356DC;
+            text-shadow: 0 0 8px #9356DC;  
+            font-size: 38px; 
+        }
+        20%
+        {
+            color: #9356DC;
+            text-shadow: 0 0 6px #9356DC;
+            font-size: 36px;
+        }
+        30%
+        {
+            color: #9356DC;
+            text-shadow: 0 0 4px #9356DC;
+            font-size: 34px;
+        }
+        40%
+        {
+            color: #FF79DA;
+            text-shadow: 0 0 2px #9356DC;
+            font-size: 32px;
         }
         50%
         {
             color: #FF79DA;
             text-shadow: none;
+            font-size: 29px;
+        }
+        60%
+        {
+            color: #FF79DA;
+            text-shadow: 0 0 2px #9356DC;
+            font-size: 32px;
+        }
+        70%
+        {
+            color: #9356DC;
+            text-shadow: 0 0 4px #9356DC;
+            font-size: 34px;
+        }
+        80%
+        {
+            color: #9356DC;
+            text-shadow: 0 0 6px #9356DC;
+            font-size: 36px;
+        }
+        90%
+        {
+            color: #9356DC;
+            text-shadow: 0 0 8px #9356DC;
+            font-size: 38px;
         }
         100%
         {
             color: #9356DC;
-            text-shadow: 0 0 8px #9356DC;
+            text-shadow: 0 0 10px #9356DC;
+            font-size: 40px;
         }
     }
     .lettre:nth-child(1)
