@@ -61,202 +61,202 @@
     @keyframes light {
         0%{
             color: black;
-            text-shadow: 0 0 14px black;
-            font-size: 65px;
+            text-shadow: 0 0 14px #A67ED7;
+            font-size: 50px;
         }
         10% 
         {
             color: black;
-            text-shadow: 0 0 12px #FF79DA;  
-            font-size: 60px; 
+            text-shadow: 0 0 12px #A67ED7;  
+            font-size: 48px; 
         }
         20%
         {
             color: black;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 55px;
+            text-shadow: 0 0 10px #A67ED7;
+            font-size: 46px;
         }
         30%
         {
             color: black;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 50px;
+            text-shadow: 0 0 8px #A67ED7;
+            font-size: 44px;
         }
         40%
         {
             color: black;
-            text-shadow: 0 0 6px #FF79DA;
-            font-size: 45px;
+            text-shadow: 0 0 6px #9C65DE;
+            font-size: 42px;
         }
         50%
         {
             color: black;
-            text-shadow: 0 0 4px black;
+            text-shadow: 0 0 4px #9C65DE;
             font-size: 40px;
         }
         60%
         {
             color: black;
-            text-shadow: 0 0 6px #9356DC;
-            font-size: 45px;
+            text-shadow: 0 0 6px #9C65DE;
+            font-size: 42px;
         }
         70%
         {
             color: black;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 50px;
+            text-shadow: 0 0 8px #A67ED7;
+            font-size: 44px;
         }
         80%
         {
             color: black;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 55px;
+            text-shadow: 0 0 10px #A67ED7;
+            font-size: 46px;
         }
         90%
         {
             color: black;
-            text-shadow: 0 0 12px #FF79DA;
-            font-size: 60px;
+            text-shadow: 0 0 12px #A67ED7;
+            font-size: 48px;
         }
         100%
         {
             color: black;
-            text-shadow: 0 0 14px #9356DC;
-            font-size: 65px;
+            text-shadow: 0 0 14px #A67ED7;
+            font-size: 50px;
         }
     }
     @-moz-keyframes light {
         0%{
             color: black;
-            text-shadow: 0 0 14px black;
-            font-size: 65px;
+            text-shadow: 0 0 14px #A67ED7;
+            font-size: 50px;
         }
         10% 
         {
             color: black;
-            text-shadow: 0 0 12px #FF79DA;  
-            font-size: 60px; 
+            text-shadow: 0 0 12px #A67ED7;  
+            font-size: 48px; 
         }
         20%
         {
             color: black;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 55px;
+            text-shadow: 0 0 10px #A67ED7;
+            font-size: 46px;
         }
         30%
         {
             color: black;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 50px;
+            text-shadow: 0 0 8px #A67ED7;
+            font-size: 44px;
         }
         40%
         {
             color: black;
-            text-shadow: 0 0 6px #FF79DA;
-            font-size: 45px;
+            text-shadow: 0 0 6px #9C65DE;
+            font-size: 42px;
         }
         50%
         {
             color: black;
-            text-shadow: 0 0 4px black;
+            text-shadow: 0 0 4px #9C65DE;
             font-size: 40px;
         }
         60%
         {
             color: black;
-            text-shadow: 0 0 6px #9356DC;
-            font-size: 45px;
+            text-shadow: 0 0 6px #9C65DE;
+            font-size: 42px;
         }
         70%
         {
             color: black;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 50px;
+            text-shadow: 0 0 8px #A67ED7;
+            font-size: 44px;
         }
         80%
         {
             color: black;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 55px;
+            text-shadow: 0 0 10px #A67ED7;
+            font-size: 46px;
         }
         90%
         {
             color: black;
-            text-shadow: 0 0 12px #FF79DA;
-            font-size: 60px;
+            text-shadow: 0 0 12px #A67ED7;
+            font-size: 48px;
         }
         100%
         {
             color: black;
-            text-shadow: 0 0 14px #9356DC;
-            font-size: 65px;
+            text-shadow: 0 0 14px #A67ED7;
+            font-size: 50px;
         }
     }
     @-webkit-keyframes light {
         0%{
             color: black;
-            text-shadow: 0 0 14px black;
-            font-size: 65px;
+            text-shadow: 0 0 14px #A67ED7;
+            font-size: 50px;
         }
         10% 
         {
             color: black;
-            text-shadow: 0 0 12px #FF79DA;  
-            font-size: 60px; 
+            text-shadow: 0 0 12px #A67ED7;  
+            font-size: 48px; 
         }
         20%
         {
             color: black;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 55px;
+            text-shadow: 0 0 10px #A67ED7;
+            font-size: 46px;
         }
         30%
         {
             color: black;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 50px;
+            text-shadow: 0 0 8px #A67ED7;
+            font-size: 44px;
         }
         40%
         {
-            color: black;
-            text-shadow: 0 0 6px #FF79DA;
-            font-size: 45px;
+            color: blackA;
+            text-shadow: 0 0 6px #9C65DE;
+            font-size: 42px;
         }
         50%
         {
             color: black;
-            text-shadow: 0 0 4px black;
+            text-shadow: 0 0 4px #9C65DE;
             font-size: 40px;
         }
         60%
         {
             color: black;
-            text-shadow: 0 0 6px #9356DC;
-            font-size: 45px;
+            text-shadow: 0 0 6px #9C65DE;
+            font-size: 42px;
         }
         70%
         {
             color: black;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 50px;
+            text-shadow: 0 0 8px #A67ED7;
+            font-size: 44px;
         }
         80%
         {
             color: black;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 55px;
+            text-shadow: 0 0 10px #A67ED7;
+            font-size: 46px;
         }
         90%
         {
             color: black;
-            text-shadow: 0 0 12px #FF79DA;
-            font-size: 60px;
+            text-shadow: 0 0 12px #A67ED7;
+            font-size: 48px;
         }
         100%
         {
             color: black;
-            text-shadow: 0 0 14px #9356DC;
-            font-size: 65px;
+            text-shadow: 0 0 14px #A67ED7;
+            font-size: 50px;
         }
     }
     .lettre:nth-child(1)
@@ -667,202 +667,202 @@
     @keyframes light {
         0%{
             color: black;
-            text-shadow: 0 0 14px black;
-            font-size: 65px;
+            text-shadow: 0 0 14px #A67ED7;
+            font-size: 50px;
         }
         10% 
         {
             color: black;
-            text-shadow: 0 0 12px #FF79DA;  
-            font-size: 60px; 
+            text-shadow: 0 0 12px #A67ED7;  
+            font-size: 48px; 
         }
         20%
         {
             color: black;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 55px;
+            text-shadow: 0 0 10px #A67ED7;
+            font-size: 46px;
         }
         30%
         {
             color: black;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 50px;
+            text-shadow: 0 0 8px #A67ED7;
+            font-size: 44px;
         }
         40%
         {
             color: black;
-            text-shadow: 0 0 6px #FF79DA;
-            font-size: 45px;
+            text-shadow: 0 0 6px #9C65DE;
+            font-size: 42px;
         }
         50%
         {
             color: black;
-            text-shadow: 0 0 4px black;
+            text-shadow: 0 0 4px #9C65DE;
             font-size: 40px;
         }
         60%
         {
             color: black;
-            text-shadow: 0 0 6px #9356DC;
-            font-size: 45px;
+            text-shadow: 0 0 6px #9C65DE;
+            font-size: 42px;
         }
         70%
         {
             color: black;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 50px;
+            text-shadow: 0 0 8px #A67ED7;
+            font-size: 44px;
         }
         80%
         {
             color: black;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 55px;
+            text-shadow: 0 0 10px #A67ED7;
+            font-size: 46px;
         }
         90%
         {
             color: black;
-            text-shadow: 0 0 12px #FF79DA;
-            font-size: 60px;
+            text-shadow: 0 0 12px #A67ED7;
+            font-size: 48px;
         }
         100%
         {
             color: black;
-            text-shadow: 0 0 14px #9356DC;
-            font-size: 65px;
+            text-shadow: 0 0 14px #A67ED7;
+            font-size: 50px;
         }
     }
     @-moz-keyframes light {
         0%{
             color: black;
-            text-shadow: 0 0 14px black;
-            font-size: 65px;
+            text-shadow: 0 0 14px #A67ED7;
+            font-size: 50px;
         }
         10% 
         {
             color: black;
-            text-shadow: 0 0 12px #FF79DA;  
-            font-size: 60px; 
+            text-shadow: 0 0 12px #A67ED7;  
+            font-size: 48px; 
         }
         20%
         {
             color: black;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 55px;
+            text-shadow: 0 0 10px #A67ED7;
+            font-size: 46px;
         }
         30%
         {
             color: black;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 50px;
+            text-shadow: 0 0 8px #A67ED7;
+            font-size: 44px;
         }
         40%
         {
             color: black;
-            text-shadow: 0 0 6px #FF79DA;
-            font-size: 45px;
+            text-shadow: 0 0 6px #9C65DE;
+            font-size: 42px;
         }
         50%
         {
             color: black;
-            text-shadow: 0 0 4px black;
+            text-shadow: 0 0 4px #9C65DE;
             font-size: 40px;
         }
         60%
         {
             color: black;
-            text-shadow: 0 0 6px #9356DC;
-            font-size: 45px;
+            text-shadow: 0 0 6px #9C65DE;
+            font-size: 42px;
         }
         70%
         {
             color: black;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 50px;
+            text-shadow: 0 0 8px #A67ED7;
+            font-size: 44px;
         }
         80%
         {
             color: black;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 55px;
+            text-shadow: 0 0 10px #A67ED7;
+            font-size: 46px;
         }
         90%
         {
             color: black;
-            text-shadow: 0 0 12px #FF79DA;
-            font-size: 60px;
+            text-shadow: 0 0 12px #A67ED7;
+            font-size: 48px;
         }
         100%
         {
             color: black;
-            text-shadow: 0 0 14px #9356DC;
-            font-size: 65px;
+            text-shadow: 0 0 14px #A67ED7;
+            font-size: 50px;
         }
     }
     @-webkit-keyframes light {
         0%{
             color: black;
-            text-shadow: 0 0 14px black;
-            font-size: 65px;
+            text-shadow: 0 0 14px #A67ED7;
+            font-size: 50px;
         }
         10% 
         {
             color: black;
-            text-shadow: 0 0 12px #FF79DA;  
-            font-size: 60px; 
+            text-shadow: 0 0 12px #A67ED7;  
+            font-size: 48px; 
         }
         20%
         {
             color: black;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 55px;
+            text-shadow: 0 0 10px #A67ED7;
+            font-size: 46px;
         }
         30%
         {
             color: black;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 50px;
+            text-shadow: 0 0 8px #A67ED7;
+            font-size: 44px;
         }
         40%
         {
-            color: black;
-            text-shadow: 0 0 6px #FF79DA;
-            font-size: 45px;
+            color: blackA;
+            text-shadow: 0 0 6px #9C65DE;
+            font-size: 42px;
         }
         50%
         {
             color: black;
-            text-shadow: 0 0 4px black;
+            text-shadow: 0 0 4px #9C65DE;
             font-size: 40px;
         }
         60%
         {
             color: black;
-            text-shadow: 0 0 6px #9356DC;
-            font-size: 45px;
+            text-shadow: 0 0 6px #9C65DE;
+            font-size: 42px;
         }
         70%
         {
             color: black;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 50px;
+            text-shadow: 0 0 8px #A67ED7;
+            font-size: 44px;
         }
         80%
         {
             color: black;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 55px;
+            text-shadow: 0 0 10px #A67ED7;
+            font-size: 46px;
         }
         90%
         {
             color: black;
-            text-shadow: 0 0 12px #FF79DA;
-            font-size: 60px;
+            text-shadow: 0 0 12px #A67ED7;
+            font-size: 48px;
         }
         100%
         {
             color: black;
-            text-shadow: 0 0 14px #9356DC;
-            font-size: 65px;
+            text-shadow: 0 0 14px #A67ED7;
+            font-size: 50px;
         }
     }
     .lettre:nth-child(1)
@@ -1278,202 +1278,202 @@
     @keyframes light {
         0%{
             color: black;
-            text-shadow: 0 0 14px black;
-            font-size: 65px;
+            text-shadow: 0 0 14px #A67ED7;
+            font-size: 50px;
         }
         10% 
         {
             color: black;
-            text-shadow: 0 0 12px #FF79DA;  
-            font-size: 60px; 
+            text-shadow: 0 0 12px #A67ED7;  
+            font-size: 48px; 
         }
         20%
         {
             color: black;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 55px;
+            text-shadow: 0 0 10px #A67ED7;
+            font-size: 46px;
         }
         30%
         {
             color: black;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 50px;
+            text-shadow: 0 0 8px #A67ED7;
+            font-size: 44px;
         }
         40%
         {
             color: black;
-            text-shadow: 0 0 6px #FF79DA;
-            font-size: 45px;
+            text-shadow: 0 0 6px #9C65DE;
+            font-size: 42px;
         }
         50%
         {
             color: black;
-            text-shadow: 0 0 4px black;
+            text-shadow: 0 0 4px #9C65DE;
             font-size: 40px;
         }
         60%
         {
             color: black;
-            text-shadow: 0 0 6px #9356DC;
-            font-size: 45px;
+            text-shadow: 0 0 6px #9C65DE;
+            font-size: 42px;
         }
         70%
         {
             color: black;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 50px;
+            text-shadow: 0 0 8px #A67ED7;
+            font-size: 44px;
         }
         80%
         {
             color: black;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 55px;
+            text-shadow: 0 0 10px #A67ED7;
+            font-size: 46px;
         }
         90%
         {
             color: black;
-            text-shadow: 0 0 12px #FF79DA;
-            font-size: 60px;
+            text-shadow: 0 0 12px #A67ED7;
+            font-size: 48px;
         }
         100%
         {
             color: black;
-            text-shadow: 0 0 14px #9356DC;
-            font-size: 65px;
+            text-shadow: 0 0 14px #A67ED7;
+            font-size: 50px;
         }
     }
     @-moz-keyframes light {
         0%{
             color: black;
-            text-shadow: 0 0 14px black;
-            font-size: 65px;
+            text-shadow: 0 0 14px #A67ED7;
+            font-size: 50px;
         }
         10% 
         {
             color: black;
-            text-shadow: 0 0 12px #FF79DA;  
-            font-size: 60px; 
+            text-shadow: 0 0 12px #A67ED7;  
+            font-size: 48px; 
         }
         20%
         {
             color: black;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 55px;
+            text-shadow: 0 0 10px #A67ED7;
+            font-size: 46px;
         }
         30%
         {
             color: black;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 50px;
+            text-shadow: 0 0 8px #A67ED7;
+            font-size: 44px;
         }
         40%
         {
             color: black;
-            text-shadow: 0 0 6px #FF79DA;
-            font-size: 45px;
+            text-shadow: 0 0 6px #9C65DE;
+            font-size: 42px;
         }
         50%
         {
             color: black;
-            text-shadow: 0 0 4px black;
+            text-shadow: 0 0 4px #9C65DE;
             font-size: 40px;
         }
         60%
         {
             color: black;
-            text-shadow: 0 0 6px #9356DC;
-            font-size: 45px;
+            text-shadow: 0 0 6px #9C65DE;
+            font-size: 42px;
         }
         70%
         {
             color: black;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 50px;
+            text-shadow: 0 0 8px #A67ED7;
+            font-size: 44px;
         }
         80%
         {
             color: black;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 55px;
+            text-shadow: 0 0 10px #A67ED7;
+            font-size: 46px;
         }
         90%
         {
             color: black;
-            text-shadow: 0 0 12px #FF79DA;
-            font-size: 60px;
+            text-shadow: 0 0 12px #A67ED7;
+            font-size: 48px;
         }
         100%
         {
             color: black;
-            text-shadow: 0 0 14px #9356DC;
-            font-size: 65px;
+            text-shadow: 0 0 14px #A67ED7;
+            font-size: 50px;
         }
     }
     @-webkit-keyframes light {
         0%{
             color: black;
-            text-shadow: 0 0 14px black;
-            font-size: 65px;
+            text-shadow: 0 0 14px #A67ED7;
+            font-size: 50px;
         }
         10% 
         {
             color: black;
-            text-shadow: 0 0 12px #FF79DA;  
-            font-size: 60px; 
+            text-shadow: 0 0 12px #A67ED7;  
+            font-size: 48px; 
         }
         20%
         {
             color: black;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 55px;
+            text-shadow: 0 0 10px #A67ED7;
+            font-size: 46px;
         }
         30%
         {
             color: black;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 50px;
+            text-shadow: 0 0 8px #A67ED7;
+            font-size: 44px;
         }
         40%
         {
             color: blackA;
-            text-shadow: 0 0 6px #FF79DA;
-            font-size: 45px;
+            text-shadow: 0 0 6px #9C65DE;
+            font-size: 42px;
         }
         50%
         {
             color: black;
-            text-shadow: 0 0 4px black;
+            text-shadow: 0 0 4px #9C65DE;
             font-size: 40px;
         }
         60%
         {
             color: black;
-            text-shadow: 0 0 6px #9356DC;
-            font-size: 45px;
+            text-shadow: 0 0 6px #9C65DE;
+            font-size: 42px;
         }
         70%
         {
             color: black;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 50px;
+            text-shadow: 0 0 8px #A67ED7;
+            font-size: 44px;
         }
         80%
         {
             color: black;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 55px;
+            text-shadow: 0 0 10px #A67ED7;
+            font-size: 46px;
         }
         90%
         {
             color: black;
-            text-shadow: 0 0 12px #FF79DA;
-            font-size: 60px;
+            text-shadow: 0 0 12px #A67ED7;
+            font-size: 48px;
         }
         100%
         {
             color: black;
-            text-shadow: 0 0 14px #9356DC;
-            font-size: 65px;
+            text-shadow: 0 0 14px #A67ED7;
+            font-size: 50px;
         }
     }
     .lettre:nth-child(1)
