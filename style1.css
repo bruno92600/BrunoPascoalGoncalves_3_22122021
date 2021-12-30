@@ -138,32 +138,55 @@
         border-radius: 15px;
         background-color: white;
         box-shadow: 0 4px 12px #6161613d;
-        animation: brouille 2500ms;
-        -moz-animation: brouille 2500ms;
-        -webkit-animation: brouille 2500ms;
+        animation: brouille 1.4s;
+        -moz-animation: brouille 1.4s;
+        -webkit-animation: brouille 1.4s;
     }
-    @keyframes brouille {
-        from {
-            opacity:0;
+    @keyframes brouille 
+    {
+        0%
+        {
+            opacity: 0;
         }
-        to {
-            opacity:1;
+        10% 
+        {
+            opacity: 0.1;
         }
-    }
-    @-moz-keyframes brouille { /* sur Firefox */
-        from {
-            opacity:0;
+        20%
+        {
+            opacity: 0.2;
         }
-        to {
-            opacity:1;
+        30%
+        {
+            opacity: 0.3;
         }
-    }
-    @-webkit-keyframes brouille { /* sur Safari et Chrome */
-        from {
-            opacity:0;
+        40%
+        {
+            opacity: 0.4;
         }
-        to {
-            opacity:1;
+        50%
+        {
+            opacity: 0.5;
+        }
+        60%
+        {
+            opacity: 0.6;
+        }
+        70%
+        {
+            opacity: 0.7;
+        }
+        80%
+        {
+            opacity: 0.8;
+        }
+        90%
+        {
+            opacity: 0.9;
+        }
+        100%
+        {
+            opacity: 1;
         }
     }
     .plat .right
@@ -272,32 +295,55 @@
         border-radius: 15px;
         background-color: white;
         box-shadow: 0 4px 12px #6161613d;
-        animation: fadein 2500ms;
-        -moz-animation: fadein 2500ms;
-        -webkit-animation: fadein 2500ms;
+        animation: brouille 1.4s;
+        -moz-animation: brouille 1.4s;
+        -webkit-animation: brouille 1.4s;
     }
-    @keyframes fadein {
-        from {
-            opacity:0;
+    @keyframes brouille 
+    {
+        0%
+        {
+            opacity: 0;
         }
-        to {
-            opacity:1;
+        10% 
+        {
+            opacity: 0.1;
         }
-    }
-    @-moz-keyframes fadein { /* sur Firefox */
-        from {
-            opacity:0;
+        20%
+        {
+            opacity: 0.2;
         }
-        to {
-            opacity:1;
+        30%
+        {
+            opacity: 0.3;
         }
-    }
-    @-webkit-keyframes fadein { /* sur Safari et Chrome */
-        from {
-            opacity:0;
+        40%
+        {
+            opacity: 0.4;
         }
-        to {
-            opacity:1;
+        50%
+        {
+            opacity: 0.5;
+        }
+        60%
+        {
+            opacity: 0.6;
+        }
+        70%
+        {
+            opacity: 0.7;
+        }
+        80%
+        {
+            opacity: 0.8;
+        }
+        90%
+        {
+            opacity: 0.9;
+        }
+        100%
+        {
+            opacity: 1;
         }
     }
     .plat3 .right2
@@ -571,32 +617,55 @@
         border-radius: 15px;
         background-color: white;
         box-shadow: 0 4px 12px #6161613d;
-        animation: fadein 2500ms;
-        -moz-animation: fadein 2500ms;
-        -webkit-animation: fadein 2500ms;
+        animation: brouille 1.4s;
+        -moz-animation: brouille 1.4s;
+        -webkit-animation: brouille 1.4s;
     }
-    @keyframes fadein {
-        from {
-            opacity:0;
+    @keyframes brouille 
+    {
+        0%
+        {
+            opacity: 0;
         }
-        to {
-            opacity:1;
+        10% 
+        {
+            opacity: 0.1;
         }
-    }
-    @-moz-keyframes fadein { /* sur Firefox */
-        from {
-            opacity:0;
+        20%
+        {
+            opacity: 0.2;
         }
-        to {
-            opacity:1;
+        30%
+        {
+            opacity: 0.3;
         }
-    }
-    @-webkit-keyframes fadein { /* sur Safari et Chrome */
-        from {
-            opacity:0;
+        40%
+        {
+            opacity: 0.4;
         }
-        to {
-            opacity:1;
+        50%
+        {
+            opacity: 0.5;
+        }
+        60%
+        {
+            opacity: 0.6;
+        }
+        70%
+        {
+            opacity: 0.7;
+        }
+        80%
+        {
+            opacity: 0.8;
+        }
+        90%
+        {
+            opacity: 0.9;
+        }
+        100%
+        {
+            opacity: 1;
         }
     }
     .plat .right
@@ -707,32 +776,55 @@
         border-radius: 15px;
         background-color: white;
         box-shadow: 0 4px 12px #6161613d;
-        animation: fadein 2500ms;
-        -moz-animation: fadein 2500ms;
-        -webkit-animation: fadein 2500ms;
+        animation: brouille 1.4s;
+        -moz-animation: brouille 1.4s;
+        -webkit-animation: brouille 1.4s;
     }
-    @keyframes fadein {
-        from {
-            opacity:0;
+    @keyframes brouille 
+    {
+        0%
+        {
+            opacity: 0;
         }
-        to {
-            opacity:1;
+        10% 
+        {
+            opacity: 0.1;
         }
-    }
-    @-moz-keyframes fadein { /* sur Firefox */
-        from {
-            opacity:0;
+        20%
+        {
+            opacity: 0.2;
         }
-        to {
-            opacity:1;
+        30%
+        {
+            opacity: 0.3;
         }
-    }
-    @-webkit-keyframes fadein { /* sur Safari et Chrome */
-        from {
-            opacity:0;
+        40%
+        {
+            opacity: 0.4;
         }
-        to {
-            opacity:1;
+        50%
+        {
+            opacity: 0.5;
+        }
+        60%
+        {
+            opacity: 0.6;
+        }
+        70%
+        {
+            opacity: 0.7;
+        }
+        80%
+        {
+            opacity: 0.8;
+        }
+        90%
+        {
+            opacity: 0.9;
+        }
+        100%
+        {
+            opacity: 1;
         }
     }
     .plat3 .right2
@@ -1012,32 +1104,55 @@
         background-color: white;
         box-shadow: 0 4px 12px #6161613d;
         margin-top: 15px;
-        animation: fadein 2500ms;
-        -moz-animation: fadein 2500ms;
-        -webkit-animation: fadein 2500ms;
+        animation: brouille 1.4s;
+        -moz-animation: brouille 1.4s;
+        -webkit-animation: brouille 1.4s;
     }
-    @keyframes fadein {
-        from {
-            opacity:0;
+    @keyframes brouille 
+    {
+        0%
+        {
+            opacity: 0;
         }
-        to {
-            opacity:1;
+        10% 
+        {
+            opacity: 0.1;
         }
-    }
-    @-moz-keyframes fadein { /* sur Firefox */
-        from {
-            opacity:0;
+        20%
+        {
+            opacity: 0.2;
         }
-        to {
-            opacity:1;
+        30%
+        {
+            opacity: 0.3;
         }
-    }
-    @-webkit-keyframes fadein { /* sur Safari et Chrome */
-        from {
-            opacity:0;
+        40%
+        {
+            opacity: 0.4;
         }
-        to {
-            opacity:1;
+        50%
+        {
+            opacity: 0.5;
+        }
+        60%
+        {
+            opacity: 0.6;
+        }
+        70%
+        {
+            opacity: 0.7;
+        }
+        80%
+        {
+            opacity: 0.8;
+        }
+        90%
+        {
+            opacity: 0.9;
+        }
+        100%
+        {
+            opacity: 1;
         }
     }
     .plat .right
@@ -1148,32 +1263,55 @@
         border-radius: 15px;
         background-color: white;
         box-shadow: 0 4px 12px #6161613d;
-        animation: fadein 2500ms;
-        -moz-animation: fadein 2500ms;
-        -webkit-animation: fadein 2500ms;
+        animation: brouille 1.4s;
+        -moz-animation: brouille 1.4s;
+        -webkit-animation: brouille 1.4s;
     }
-    @keyframes fadein {
-        from {
-            opacity:0;
+    @keyframes brouille 
+    {
+        0%
+        {
+            opacity: 0;
         }
-        to {
-            opacity:1;
+        10% 
+        {
+            opacity: 0.1;
         }
-    }
-    @-moz-keyframes fadein { /* sur Firefox */
-        from {
-            opacity:0;
+        20%
+        {
+            opacity: 0.2;
         }
-        to {
-            opacity:1;
+        30%
+        {
+            opacity: 0.3;
         }
-    }
-    @-webkit-keyframes fadein { /* sur Safari et Chrome */
-        from {
-            opacity:0;
+        40%
+        {
+            opacity: 0.4;
         }
-        to {
-            opacity:1;
+        50%
+        {
+            opacity: 0.5;
+        }
+        60%
+        {
+            opacity: 0.6;
+        }
+        70%
+        {
+            opacity: 0.7;
+        }
+        80%
+        {
+            opacity: 0.8;
+        }
+        90%
+        {
+            opacity: 0.9;
+        }
+        100%
+        {
+            opacity: 1;
         }
     }
     .plat3 .right2
