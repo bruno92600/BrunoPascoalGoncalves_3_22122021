@@ -380,14 +380,14 @@
         color: white;
         background-image: linear-gradient(#FF79DA, #9356DC);
         border-style: none;
-        box-shadow: 0 8px 12px #6161613d;
+        box-shadow: 0 10px 14px #6161613d;
         cursor: pointer;
         transition: background-image 0.5s;
         transition-property: all;
     }
     .input:hover {
-        background-image: linear-gradient(#FA8BDB,#9356DC);
-        box-shadow: 0 16px 22px #61616170;
+        background-image: linear-gradient(#FA8BDB,#9C65DE);
+        box-shadow: 0 22px 22px #61616170;
     }
     #fonctionnement
     {
@@ -986,14 +986,14 @@
         color: white;
         background-image: linear-gradient(#FF79DA, #9356DC);
         border-style: none;
-        box-shadow: 0 8px 12px #6161613d;
+        box-shadow: 0 10px 14px #6161613d;
         cursor: pointer;
         transition: background-image 0.5s;
         transition-property: all;
     }
     .input:hover {
-        background-image: linear-gradient(#FA8BDB,#9356DC);
-        box-shadow: 0 16px 22px #61616170;
+        background-image: linear-gradient(#FA8BDB,#9C65DE);
+        box-shadow: 0 22px 22px #61616170;
     }
     #fonctionnement
     {
@@ -1597,15 +1597,15 @@
         color: white;
         background-image: linear-gradient(#FF79DA, #9356DC);
         border-style: none;
-        box-shadow: 0 8px 12px #6161613d;
+        box-shadow: 0 10px 14px #6161613d;
         cursor: pointer;
         transition: background-image 0.5s;
         transition-property: all;
         margin-top: 10px;
     }
     .input:hover {
-        background-image: linear-gradient(#FA8BDB,#9356DC);
-        box-shadow: 0 16px 22px #61616170;
+        background-image: linear-gradient(#FA8BDB,#9C65DE);
+        box-shadow: 0 22px 22px #61616170;
     }
     #fonctionnement
     {
