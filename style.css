@@ -11,7 +11,8 @@
 {
     #loader
     {
-        border: 1px black solid;
+        top: 0;
+        left: 0;
         width: 100%;
         height: 100%;
         position: absolute;
@@ -37,90 +38,89 @@
         100%
         {
             opacity: 0;
-            display: none;
         }
     }
-    .tourne
+    .wait
     {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 300px;
-        height: 60px;
-        font-family: 'Shrikhand', sans-serif; 
+        height: 100px; 
+        margin-bottom: 300px;
         background-color: #F5EDFF;
     }
     .lettre
     {
-        font-size: 33px;
+        font-family: 'Shrikhand', sans-serif;
         color: #9356DC;
-        animation: light 1.2s linear infinite;
+        animation: light 1.5s linear infinite;
     }
     @keyframes light {
         0%{
-            color: #9356DC;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 40px;
+            color: black;
+            text-shadow: 0 0 14px black;
+            font-size: 65px;
         }
         10% 
         {
-            color: #9356DC;
-            text-shadow: 0 0 8px #9356DC;  
-            font-size: 38px; 
+            color: #FF79DA;
+            text-shadow: 0 0 12px #FF79DA;  
+            font-size: 60px; 
         }
         20%
         {
             color: #9356DC;
-            text-shadow: 0 0 6px #9356DC;
-            font-size: 36px;
+            text-shadow: 0 0 10px #9356DC;
+            font-size: 55px;
         }
         30%
         {
             color: #9356DC;
-            text-shadow: 0 0 4px #9356DC;
-            font-size: 34px;
+            text-shadow: 0 0 8px #9356DC;
+            font-size: 50px;
         }
         40%
         {
             color: #FF79DA;
-            text-shadow: 0 0 2px #9356DC;
-            font-size: 32px;
+            text-shadow: 0 0 6px #FF79DA;
+            font-size: 45px;
         }
         50%
         {
-            color: #FF79DA;
-            text-shadow: none;
-            font-size: 29px;
+            color: black;
+            text-shadow: 0 0 4px black;
+            font-size: 40px;
         }
         60%
         {
             color: #FF79DA;
-            text-shadow: 0 0 2px #9356DC;
-            font-size: 32px;
+            text-shadow: 0 0 6px #9356DC;
+            font-size: 45px;
         }
         70%
         {
             color: #9356DC;
-            text-shadow: 0 0 4px #9356DC;
-            font-size: 34px;
+            text-shadow: 0 0 8px #9356DC;
+            font-size: 50px;
         }
         80%
         {
             color: #9356DC;
-            text-shadow: 0 0 6px #9356DC;
-            font-size: 36px;
+            text-shadow: 0 0 10px #9356DC;
+            font-size: 55px;
         }
         90%
         {
-            color: #9356DC;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 38px;
+            color: #FF79DA;
+            text-shadow: 0 0 12px #FF79DA;
+            font-size: 60px;
         }
         100%
         {
-            color: #9356DC;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 40px;
+            color: black;
+            text-shadow: 0 0 14px #9356DC;
+            font-size: 65px;
         }
     }
     .lettre:nth-child(1)
@@ -481,7 +481,8 @@
 {
     #loader
     {
-        border: 1px black solid;
+        top: 0;
+        left: 0;
         width: 100%;
         height: 100%;
         position: absolute;
@@ -507,90 +508,89 @@
         100%
         {
             opacity: 0;
-            display: none;
         }
     }
-    .tourne
+    .wait
     {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 200px;
         width: 300px;
-        height: 100px;
-        font-family: 'Shrikhand', sans-serif; 
+        height: 100px; 
         background-color: #F5EDFF;
     }
     .lettre
     {
-        font-size: 33px;
+        font-family: 'Shrikhand', sans-serif;
         color: #9356DC;
-        animation: light 1.2s linear infinite;
+        animation: light 1.5s linear infinite;
     }
     @keyframes light {
         0%{
-            color: #9356DC;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 40px;
+            color: black;
+            text-shadow: 0 0 14px black;
+            font-size: 65px;
         }
         10% 
         {
-            color: #9356DC;
-            text-shadow: 0 0 8px #9356DC;  
-            font-size: 38px; 
+            color: #FF79DA;
+            text-shadow: 0 0 12px #FF79DA;  
+            font-size: 60px; 
         }
         20%
         {
             color: #9356DC;
-            text-shadow: 0 0 6px #9356DC;
-            font-size: 36px;
+            text-shadow: 0 0 10px #9356DC;
+            font-size: 55px;
         }
         30%
         {
             color: #9356DC;
-            text-shadow: 0 0 4px #9356DC;
-            font-size: 34px;
+            text-shadow: 0 0 8px #9356DC;
+            font-size: 50px;
         }
         40%
         {
             color: #FF79DA;
-            text-shadow: 0 0 2px #9356DC;
-            font-size: 32px;
+            text-shadow: 0 0 6px #FF79DA;
+            font-size: 45px;
         }
         50%
         {
-            color: #FF79DA;
-            text-shadow: none;
-            font-size: 29px;
+            color: black;
+            text-shadow: 0 0 4px black;
+            font-size: 40px;
         }
         60%
         {
             color: #FF79DA;
-            text-shadow: 0 0 2px #9356DC;
-            font-size: 32px;
+            text-shadow: 0 0 6px #9356DC;
+            font-size: 45px;
         }
         70%
         {
             color: #9356DC;
-            text-shadow: 0 0 4px #9356DC;
-            font-size: 34px;
+            text-shadow: 0 0 8px #9356DC;
+            font-size: 50px;
         }
         80%
         {
             color: #9356DC;
-            text-shadow: 0 0 6px #9356DC;
-            font-size: 36px;
+            text-shadow: 0 0 10px #9356DC;
+            font-size: 55px;
         }
         90%
         {
-            color: #9356DC;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 38px;
+            color: #FF79DA;
+            text-shadow: 0 0 12px #FF79DA;
+            font-size: 60px;
         }
         100%
         {
-            color: #9356DC;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 40px;
+            color: black;
+            text-shadow: 0 0 14px #9356DC;
+            font-size: 65px;
         }
     }
     .lettre:nth-child(1)
@@ -956,7 +956,8 @@
 {
     #loader
     {
-        border: 1px black solid;
+        top: 0;
+        left: 0;
         width: 100%;
         height: 100%;
         position: absolute;
@@ -990,81 +991,80 @@
         justify-content: center;
         align-items: center;
         width: 300px;
-        height: 100px;
-        font-family: 'Shrikhand', sans-serif; 
+        height: 100px; 
         background-color: #F5EDFF;
     }
     .lettre
     {
-        font-size: 33px;
+        font-family: 'Shrikhand', sans-serif;
         color: #9356DC;
-        animation: light 1.2s linear infinite;
+        animation: light 1.5s linear infinite;
     }
     @keyframes light {
         0%{
-            color: #9356DC;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 40px;
+            color: black;
+            text-shadow: 0 0 14px black;
+            font-size: 65px;
         }
         10% 
         {
-            color: #9356DC;
-            text-shadow: 0 0 8px #9356DC;  
-            font-size: 38px; 
+            color: #FF79DA;
+            text-shadow: 0 0 12px #FF79DA;  
+            font-size: 60px; 
         }
         20%
         {
             color: #9356DC;
-            text-shadow: 0 0 6px #9356DC;
-            font-size: 36px;
+            text-shadow: 0 0 10px #9356DC;
+            font-size: 55px;
         }
         30%
         {
             color: #9356DC;
-            text-shadow: 0 0 4px #9356DC;
-            font-size: 34px;
+            text-shadow: 0 0 8px #9356DC;
+            font-size: 50px;
         }
         40%
         {
             color: #FF79DA;
-            text-shadow: 0 0 2px #9356DC;
-            font-size: 32px;
+            text-shadow: 0 0 6px #FF79DA;
+            font-size: 45px;
         }
         50%
         {
-            color: #FF79DA;
-            text-shadow: none;
-            font-size: 29px;
+            color: black;
+            text-shadow: 0 0 4px black;
+            font-size: 40px;
         }
         60%
         {
             color: #FF79DA;
-            text-shadow: 0 0 2px #9356DC;
-            font-size: 32px;
+            text-shadow: 0 0 6px #9356DC;
+            font-size: 45px;
         }
         70%
         {
             color: #9356DC;
-            text-shadow: 0 0 4px #9356DC;
-            font-size: 34px;
+            text-shadow: 0 0 8px #9356DC;
+            font-size: 50px;
         }
         80%
         {
             color: #9356DC;
-            text-shadow: 0 0 6px #9356DC;
-            font-size: 36px;
+            text-shadow: 0 0 10px #9356DC;
+            font-size: 55px;
         }
         90%
         {
-            color: #9356DC;
-            text-shadow: 0 0 8px #9356DC;
-            font-size: 38px;
+            color: #FF79DA;
+            text-shadow: 0 0 12px #FF79DA;
+            font-size: 60px;
         }
         100%
         {
-            color: #9356DC;
-            text-shadow: 0 0 10px #9356DC;
-            font-size: 40px;
+            color: black;
+            text-shadow: 0 0 14px #9356DC;
+            font-size: 65px;
         }
     }
     .lettre:nth-child(1)
