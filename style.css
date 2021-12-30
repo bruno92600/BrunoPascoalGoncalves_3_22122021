@@ -20,7 +20,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #F5EDFF;
+        background-color: white;
         animation: load 3s linear;
         animation-fill-mode: forwards;
         pointer-events: none;
@@ -48,12 +48,12 @@
         width: 300px;
         height: 100px; 
         margin-bottom: 100px;
-        background-color: #F5EDFF;
+        background-color: white;
     }
     .lettre
     {
         font-family: 'Shrikhand', sans-serif;
-        color: #9356DC;
+        color: black;
         animation: light 1.5s linear infinite;
         -moz-animation: light 1.5s linear infinite;
         -webkit-animation: light 1.5s linear infinite;
@@ -66,25 +66,25 @@
         }
         10% 
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 12px #FF79DA;  
             font-size: 60px; 
         }
         20%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 10px #9356DC;
             font-size: 55px;
         }
         30%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 8px #9356DC;
             font-size: 50px;
         }
         40%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 6px #FF79DA;
             font-size: 45px;
         }
@@ -96,25 +96,25 @@
         }
         60%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 6px #9356DC;
             font-size: 45px;
         }
         70%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 8px #9356DC;
             font-size: 50px;
         }
         80%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 10px #9356DC;
             font-size: 55px;
         }
         90%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 12px #FF79DA;
             font-size: 60px;
         }
@@ -133,25 +133,25 @@
         }
         10% 
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 12px #FF79DA;  
             font-size: 60px; 
         }
         20%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 10px #9356DC;
             font-size: 55px;
         }
         30%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 8px #9356DC;
             font-size: 50px;
         }
         40%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 6px #FF79DA;
             font-size: 45px;
         }
@@ -163,25 +163,25 @@
         }
         60%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 6px #9356DC;
             font-size: 45px;
         }
         70%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 8px #9356DC;
             font-size: 50px;
         }
         80%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 10px #9356DC;
             font-size: 55px;
         }
         90%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 12px #FF79DA;
             font-size: 60px;
         }
@@ -200,25 +200,25 @@
         }
         10% 
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 12px #FF79DA;  
             font-size: 60px; 
         }
         20%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 10px #9356DC;
             font-size: 55px;
         }
         30%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 8px #9356DC;
             font-size: 50px;
         }
         40%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 6px #FF79DA;
             font-size: 45px;
         }
@@ -230,25 +230,25 @@
         }
         60%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 6px #9356DC;
             font-size: 45px;
         }
         70%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 8px #9356DC;
             font-size: 50px;
         }
         80%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 10px #9356DC;
             font-size: 55px;
         }
         90%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 12px #FF79DA;
             font-size: 60px;
         }
@@ -626,7 +626,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #F5EDFF;
+        background-color: white;
         animation: load 3s linear;
         animation-fill-mode: forwards;
         pointer-events: none;
@@ -654,12 +654,12 @@
         margin-bottom: 100px;
         width: 300px;
         height: 100px; 
-        background-color: #F5EDFF;
+        background-color: white;
     }
     .lettre
     {
         font-family: 'Shrikhand', sans-serif;
-        color: #9356DC;
+        color: black;
         animation: light 1.5s linear infinite;
         -moz-animation: light 1.5s linear infinite;
         -webkit-animation: light 1.5s linear infinite;
@@ -672,25 +672,25 @@
         }
         10% 
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 12px #FF79DA;  
             font-size: 60px; 
         }
         20%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 10px #9356DC;
             font-size: 55px;
         }
         30%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 8px #9356DC;
             font-size: 50px;
         }
         40%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 6px #FF79DA;
             font-size: 45px;
         }
@@ -702,25 +702,25 @@
         }
         60%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 6px #9356DC;
             font-size: 45px;
         }
         70%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 8px #9356DC;
             font-size: 50px;
         }
         80%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 10px #9356DC;
             font-size: 55px;
         }
         90%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 12px #FF79DA;
             font-size: 60px;
         }
@@ -739,25 +739,25 @@
         }
         10% 
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 12px #FF79DA;  
             font-size: 60px; 
         }
         20%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 10px #9356DC;
             font-size: 55px;
         }
         30%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 8px #9356DC;
             font-size: 50px;
         }
         40%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 6px #FF79DA;
             font-size: 45px;
         }
@@ -769,25 +769,25 @@
         }
         60%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 6px #9356DC;
             font-size: 45px;
         }
         70%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 8px #9356DC;
             font-size: 50px;
         }
         80%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 10px #9356DC;
             font-size: 55px;
         }
         90%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 12px #FF79DA;
             font-size: 60px;
         }
@@ -806,25 +806,25 @@
         }
         10% 
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 12px #FF79DA;  
             font-size: 60px; 
         }
         20%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 10px #9356DC;
             font-size: 55px;
         }
         30%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 8px #9356DC;
             font-size: 50px;
         }
         40%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 6px #FF79DA;
             font-size: 45px;
         }
@@ -836,25 +836,25 @@
         }
         60%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 6px #9356DC;
             font-size: 45px;
         }
         70%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 8px #9356DC;
             font-size: 50px;
         }
         80%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 10px #9356DC;
             font-size: 55px;
         }
         90%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 12px #FF79DA;
             font-size: 60px;
         }
@@ -1237,7 +1237,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #F5EDFF;
+        background-color: white;
         animation: load 3s linear;
         animation-fill-mode: forwards;
         pointer-events: none;
@@ -1265,12 +1265,12 @@
         width: 300px;
         height: 100px; 
         margin-bottom: 100px;
-        background-color: #F5EDFF;
+        background-color: white;
     }
     .lettre
     {
         font-family: 'Shrikhand', sans-serif;
-        color: #9356DC;
+        color: black;
         animation: light 1.5s linear infinite;
         -moz-animation: light 1.5s linear infinite;
         -webkit-animation: light 1.5s linear infinite;
@@ -1283,25 +1283,25 @@
         }
         10% 
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 12px #FF79DA;  
             font-size: 60px; 
         }
         20%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 10px #9356DC;
             font-size: 55px;
         }
         30%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 8px #9356DC;
             font-size: 50px;
         }
         40%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 6px #FF79DA;
             font-size: 45px;
         }
@@ -1313,25 +1313,25 @@
         }
         60%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 6px #9356DC;
             font-size: 45px;
         }
         70%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 8px #9356DC;
             font-size: 50px;
         }
         80%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 10px #9356DC;
             font-size: 55px;
         }
         90%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 12px #FF79DA;
             font-size: 60px;
         }
@@ -1350,25 +1350,25 @@
         }
         10% 
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 12px #FF79DA;  
             font-size: 60px; 
         }
         20%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 10px #9356DC;
             font-size: 55px;
         }
         30%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 8px #9356DC;
             font-size: 50px;
         }
         40%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 6px #FF79DA;
             font-size: 45px;
         }
@@ -1380,25 +1380,25 @@
         }
         60%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 6px #9356DC;
             font-size: 45px;
         }
         70%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 8px #9356DC;
             font-size: 50px;
         }
         80%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 10px #9356DC;
             font-size: 55px;
         }
         90%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 12px #FF79DA;
             font-size: 60px;
         }
@@ -1417,25 +1417,25 @@
         }
         10% 
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 12px #FF79DA;  
             font-size: 60px; 
         }
         20%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 10px #9356DC;
             font-size: 55px;
         }
         30%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 8px #9356DC;
             font-size: 50px;
         }
         40%
         {
-            color: #FF79DA;
+            color: blackA;
             text-shadow: 0 0 6px #FF79DA;
             font-size: 45px;
         }
@@ -1447,25 +1447,25 @@
         }
         60%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 6px #9356DC;
             font-size: 45px;
         }
         70%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 8px #9356DC;
             font-size: 50px;
         }
         80%
         {
-            color: #9356DC;
+            color: black;
             text-shadow: 0 0 10px #9356DC;
             font-size: 55px;
         }
         90%
         {
-            color: #FF79DA;
+            color: black;
             text-shadow: 0 0 12px #FF79DA;
             font-size: 60px;
         }
