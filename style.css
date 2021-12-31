@@ -1070,6 +1070,10 @@
         font-size: 22px;
         color: grey;
     }
+    .choisir i:hover
+    {
+        color: #9356DC;
+    }
     .choisir h3 
     {
         margin-left: 20px;
