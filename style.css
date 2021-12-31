@@ -550,7 +550,7 @@
         color: white;
         text-shadow: 0 0 3px black;
         transition: color;
-        transition-duration: 1.6s;
+        transition-duration: 1.4s;
         transition-property: color;
         cursor: pointer;
     }
@@ -1161,7 +1161,7 @@
         color: white;
         text-shadow: 0 0 3px black;
         transition: color;
-        transition-duration: 1.6s;
+        transition-duration: 1.4s;
         transition-property: color;
         cursor: pointer;
     }
@@ -1675,6 +1675,10 @@
         font-size: 22px;
         color: grey;
     }
+    .choisir i:hover
+    {
+        color: #9356DC;
+    }
     .choisir h3 
     {
         margin-left: 20px;
@@ -1771,7 +1775,7 @@
         color: white;
         text-shadow: 0 0 3px black;
         transition: color;
-        transition-duration: 1.6s;
+        transition-duration: 1.4s;
         transition-property: color;
         cursor: pointer;
     }
