@@ -213,6 +213,11 @@
         width: 0;
         opacity: 0%;
     }
+    .plat:hover .fas
+    {
+        transform: rotate(1turn);
+        transition: transform 0.7s ease-in-out;
+    }
     .left
     {
         display: flex;
@@ -369,6 +374,11 @@
         transition: .5s ease-in-out;
         width: 0;
         opacity: 0%;
+    }
+    .plat3:hover .fas
+    {
+        transform: rotate(1turn);
+        transition: transform 0.7s ease-in-out;
     }
     .left2
     {
@@ -692,6 +702,11 @@
         width: 0;
         opacity: 0%;
     }
+    .plat:hover .fas
+    {
+        transform: rotate(1turn);
+        transition: transform 0.7s ease-in-out;
+    }
     .left
     {
         display: flex;
@@ -850,6 +865,11 @@
         transition: .5s ease-in-out;
         width: 0;
         opacity: 0%;
+    }
+    .plat3:hover .fas
+    {
+        transform: rotate(1turn);
+        transition: transform 0.7s ease-in-out;
     }
     .left2
     {
@@ -1179,9 +1199,10 @@
         width: 0;
         opacity: 0%;
     }
-    .fas 
+    .plat:hover .fas
     {
-        border: 1px black solid;
+        transform: rotate(1turn);
+        transition: transform 0.7s ease-in-out;
     }
     .left
     {
@@ -1341,6 +1362,11 @@
         transition: .5s ease-in-out;
         width: 0;
         opacity: 0%;
+    }
+    .plat3:hover .fas
+    {
+        transform: rotate(1turn);
+        transition: transform 0.7s ease-in-out;
     }
     .left2
     {
