@@ -1179,6 +1179,10 @@
         width: 0;
         opacity: 0%;
     }
+    .fas 
+    {
+        border: 1px black solid;
+    }
     .left
     {
         display: flex;
